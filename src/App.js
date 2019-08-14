@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <div className="funcHold">
+      <div className="funcHold" id="contid">
         <TopBar />
         <JumboMain />
         <About />

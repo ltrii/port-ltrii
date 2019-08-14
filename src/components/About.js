@@ -4,9 +4,9 @@ import MePic from '../assets/img/me.jpg';
 
 export default function About() {
     return (
-        <div className="about">
+        <div className="about" name="about">
             <div className="picCenter">
-                <img class="leftPic" src={MePic} alt="me"/>
+                <img className="leftPic" src={MePic} alt="me"/>
             </div>
             <div className="rightInfo">
                 Hello! I'm Leland Rogers.

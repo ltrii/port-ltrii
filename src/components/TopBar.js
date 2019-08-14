@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/topbar.css';
+import Nav from './Nav';
 
 export default function TopBar() {
     return (
@@ -8,7 +9,7 @@ export default function TopBar() {
                 <h1 id="nameplate">ltrii</h1>
             </div>
             <div className="rightBar">
-                Other stuff here.
+                <Nav />
             </div>
         </div>
     )

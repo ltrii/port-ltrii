@@ -1,0 +1,12 @@
+.navlinks {
+    display: flex;
+    box-sizing: border-box;
+}
+
+a {
+    padding: 0 5px;
+}
+
+a:hover {
+    color: rgba(255,255,255,.75);
+}

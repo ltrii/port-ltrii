@@ -1,8 +1,8 @@
 .projects {
-    /* box-sizing: border-box;
-    margin: 15px;
-    background-color: white;
-    border-radius: 3px;
-    color: black;
-    padding: 15px; */
+    width: 100%;
+    background-color: rgb(0,0,0,.45);
+    padding: 10px;
+    margin: 15px 0;
+    height: 500px;
+    box-sizing: border-box;
 }
