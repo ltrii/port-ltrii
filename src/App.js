@@ -15,8 +15,10 @@ function App() {
     <div className="App">
       <GlobalState>
         <div className="funcHold" id="contid">
-          <TopBar />
-          <JumboMain />
+          <div className="uppers">
+            <TopBar />
+            <JumboMain />
+          </div>
           <div className="lowers">
             <About />
             <Projects />

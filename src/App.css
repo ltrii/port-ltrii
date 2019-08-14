@@ -14,3 +14,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.uppers {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
