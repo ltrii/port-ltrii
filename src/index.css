@@ -1,6 +1,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Lexend Exa', 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 code {

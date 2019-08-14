@@ -1,9 +1,9 @@
 .about {
     box-sizing: border-box;
     margin: 15px;
-    background-color: white;
+    background-color: #666666;
     border-radius: 3px;
-    color: black;
+    color: white;
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
