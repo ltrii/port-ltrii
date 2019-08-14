@@ -1,15 +1,18 @@
 .about {
     box-sizing: border-box;
-    margin: 15px;
+    margin: 7.5px;
+    margin-top: 18.25px;
     background-color: white;
     border-radius: 3px;
     color: black;
     padding: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'lP rI'
+        'uPI uPI';
     justify-content: space-between;
     align-items: center;
-    width: 85%;
+    width: 98%;
 }
 
 .leftPic {
@@ -19,6 +22,7 @@
     border-radius: 50%;
     box-sizing: border-box;
     padding: 20px;
+    grid-area: lP;
 }
 
 .picCenter {
@@ -29,6 +33,24 @@
 .rightInfo {
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    grid-area: rI;
+}
+
+.underPicInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: uPI;
+}
+
+@media(max-width: 750px){
+    .about {
+        grid-template-areas: 
+        'lP'
+        'rI'
+        'uPI';
+        width: 80%;
+    }
 }

@@ -2,8 +2,25 @@ import React from 'react';
 import './css/topbar.css';
 import Nav from './Nav';
 import Contact from './Contact';
+import top from '../assets/img/top.png'
+
+var Scroll = require('react-scroll');
+var scroll = Scroll.animateScroll;
 
 export default function TopBar() {
+
+    function toTop() {
+        if(window.scrollY > 25) {
+            return (
+                <div className="upArrow" onClick={() => scroll.scrollToTop()}><img src={top} alt="return to top" /></div>
+            )
+        } else {
+            return (
+                null
+            )
+        }
+    }
+
     return (
         <div className="topBarHold">
             <div className="topBar">
@@ -14,6 +31,7 @@ export default function TopBar() {
                     <Nav />
                 </div>
             </div>
+            {toTop()}
             <Contact />
         </div>
     )

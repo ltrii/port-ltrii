@@ -1,5 +1,11 @@
 .contact {
-    background-color: #222222;
-    height: 500px;
+    background-color: rgba(0,0,0,.4);
+    height: 85vh;
     box-sizing: border-box;
+}
+
+@media(max-height: 600px) {
+    .contact {
+        height: 100vh;
+    }
 }

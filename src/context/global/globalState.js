@@ -17,7 +17,6 @@ const GlobalState = props => {
       })
   }
 
-
   return (
     <globalContext.Provider
       value={{

@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: -315;
 }
 
 .uppers {
@@ -20,4 +21,5 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  z-index: 300;
 }
