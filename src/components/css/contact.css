@@ -1,11 +1,97 @@
 .contact {
     background-color: rgba(0,0,0,.4);
-    height: 85vh;
+    height: 100vh;
     box-sizing: border-box;
+}
+
+.contactGrid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+}
+
+.forForm {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.forForm form {
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.forForm form input {
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: rgba(0,0,0,.6);
+    border: none;
+    margin: 7px 0px;
+    width: 75%;
+    color: white;
+}
+
+.forForm form textarea {
+    box-sizing: border-box;
+    margin: 7px 0px;
+    padding: 7px;
+    width: 85%;
+    height: 300px;
+    resize: none;
+    background-color: rgba(0,0,0,.6);
+    border: none;
+    color: white;
+}
+
+.forOther {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#blocker {
+    height: 65px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.55em;
 }
 
 @media(max-height: 600px) {
     .contact {
         height: 100vh;
+    }
+}
+
+@media(max-width: 600px) {
+    .contactGrid {
+        grid-template-columns: 1fr;
+    }
+
+    #blocker p {
+        padding-right: 167px;
+    }
+    .forForm {
+        
+    }
+    
+    .forForm form {
+        
+    }
+    
+    .forForm form input {
+        width: 100%;
+    }
+    
+    .forForm form textarea {
+        width: 100%;
+    }
+    
+    .forOther {
+        width: 100%;
     }
 }

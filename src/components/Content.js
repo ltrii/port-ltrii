@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './css/content.css';
 
 export default function Content() {
     return (
