@@ -1,0 +1,22 @@
+.topBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 200;
+}
+
+.leftBar {
+
+}
+
+.rightBar {
+
+}
+
+#nameplate {
+    font-family: 'Merriweather', sans-serif;
+    line-height: 0;
+}

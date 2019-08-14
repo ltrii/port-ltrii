@@ -1,0 +1,12 @@
+.jumboMain {
+    height: 522px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #222222, #222223, #232324, #232324, #232425, #252728, #28292a, #2a2c2d, #303233, #353739, #3b3d3f, #414345);
+    -webkit-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+

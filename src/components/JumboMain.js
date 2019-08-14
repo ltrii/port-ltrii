@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './css/jumbo.css';
 
 export default function JumboMain() {
     return (
         <div className="jumboMain">
-            JUMBO
+            <div className="jumboText">
+                Jumbo
+            </div>
         </div>
     )
 }

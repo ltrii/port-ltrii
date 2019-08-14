@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./css/projects.css";
 
 export default function Projects() {
     return (
         <div className="projects">
-            PROJECTS
+            <div className="innerProj">
+                Projects
+            </div>
         </div>
     )
 }
