@@ -62,12 +62,10 @@
 }
 
 @media(max-height: 600px) {
-    .contact {
-        height: 100vh;
-    }
+
 }
 
-@media(max-width: 600px) {
+@media(max-width: 800px) {
     .contactGrid {
         grid-template-columns: 1fr;
     }
