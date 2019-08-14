@@ -8,19 +8,23 @@ import Projects from './components/Projects';
 import Content from './components/Content';
 import Footer from './components/Footer';
 
+import GlobalState from "./context/global/globalState";
+
 function App() {
   return (
     <div className="App">
-      <div className="funcHold" id="contid">
-        <TopBar />
-        <JumboMain />
-        <div className="lowers">
-          <About />
-          <Projects />
-          <Content />
-          <Footer />
+      <GlobalState>
+        <div className="funcHold" id="contid">
+          <TopBar />
+          <JumboMain />
+          <div className="lowers">
+            <About />
+            <Projects />
+            <Content />
+            <Footer />
+          </div>
         </div>
-      </div>
+      </GlobalState>
     </div>
   );
 }

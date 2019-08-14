@@ -5,16 +5,23 @@
     align-items: center;
     padding: 0 10px;
     box-sizing: border-box;
+}
+
+.topBarHold {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     z-index: 200;
 }
 
-.leftBar {
+/* .leftBar {
 
 }
 
 .rightBar {
 
-}
+} */
 
 #nameplate {
     font-family: 'Lexend Deca', 'Lexend Exa', 'Libre Caslon Display', 'Roboto', Arial, Helvetica, sans-serif;
