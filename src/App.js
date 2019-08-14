@@ -14,10 +14,12 @@ function App() {
       <div className="funcHold" id="contid">
         <TopBar />
         <JumboMain />
-        <About />
-        <Projects />
-        <Content />
-        <Footer />
+        <div className="lowers">
+          <About />
+          <Projects />
+          <Content />
+          <Footer />
+        </div>
       </div>
     </div>
   );

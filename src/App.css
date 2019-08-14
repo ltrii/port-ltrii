@@ -7,3 +7,10 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
+
+.lowers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

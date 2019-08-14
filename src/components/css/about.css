@@ -1,14 +1,15 @@
 .about {
     box-sizing: border-box;
     margin: 15px;
-    background-color: #666666;
+    background-color: white;
     border-radius: 3px;
-    color: white;
+    color: black;
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
+    width: 85%;
 }
 
 .leftPic {
