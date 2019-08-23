@@ -1,11 +1,12 @@
 .contact {
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.8);
     height: 100vh;
+    min-height: 100%;
     box-sizing: border-box;
 }
 
 .contactGrid {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-sizing: border-box;
@@ -54,9 +55,14 @@
     height: 65px;
     width: 100%;
     box-sizing: border-box;
+    background-color: rgba(0,0,0,.6);
+}
+
+#contactHeader {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 14px;
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.55em;
 }
@@ -70,9 +76,9 @@
         grid-template-columns: 1fr;
     }
 
-    #blocker p {
+    /* #blocker p {
         padding-right: 167px;
-    }
+    } */
     .forForm {
         
     }
@@ -92,4 +98,5 @@
     .forOther {
         width: 100%;
     }
+
 }
