@@ -5,6 +5,8 @@ import ProjCard from './Projects/ProjCard';
 export default function Projects() {
 
     const projArray = [{name: 'Neighborhood Library', desc: 'Share books'},
+                       {name: 'Bountiful Development', desc: 'User stories'},
+                       {name: 'Bountiful Development', desc: 'User stories'},
                        {name: 'Bountiful Development', desc: 'User stories'}];
 
     return (

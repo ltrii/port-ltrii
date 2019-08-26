@@ -1,33 +1,29 @@
 .projects {
-    width: 100%;
+    width: 100vw;
     background-color: rgb(0,0,0,.45);
     padding: 10px;
     margin: 15px 0;
     height: 90vh;
     min-height: 500px;
-    box-sizing: border-box;
-    border: 1px solid purple;
+    border: 1px solid rgba(255,255,255,.025);
+    overflow: hidden;
 }
 
 .projCard {
-    min-height: 600px;
-    min-width: 50%;
-    background-color: rgb(35, 112, 126);
+    min-height: 100%;
+    min-width: 400px;
+    background-color: rgba(49, 84, 90, 0.815);
     padding: 12px;
     border-radius: 5px;
-    margin: 10px;
-    box-sizing: border-box;
-    font-family: 'Roboto';
-    border: .5px solid rgba(255,255,255,.4);
+    margin: 7px;
+    overflow: hidden;
 }
 
 .mapHolder {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    border: 1px solid red;
-    align-items: center;
-    width: 100%;
+    display: flex;
     height: 100%;
-    overflow: hidden;
+    border: 1px solid red;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
