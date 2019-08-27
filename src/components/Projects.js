@@ -15,7 +15,7 @@ export default function Projects() {
                 Projects
                 <div className="mapHolder">
                     {projArray.map(function(item){
-                    return <ProjCard project={item} />
+                    return <ProjCard project={item} key={Math.random()}/>
                 })}
                 </div>
             </div>

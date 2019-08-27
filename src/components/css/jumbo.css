@@ -1,7 +1,7 @@
 .bgHolder{
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.938) 0%, rgba(2, 2, 2, 0.959) 100%), url(../../assets/img/code.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
     z-index: -3;
     background-position: center;
     background-repeat: no-repeat;

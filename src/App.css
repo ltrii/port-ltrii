@@ -3,6 +3,10 @@ body {
   color: #FFFFFF;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .funcHold {
   display: grid;
   grid-template-columns: 1fr;
