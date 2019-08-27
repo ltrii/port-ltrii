@@ -3,7 +3,7 @@ import './css/content.css';
 
 export default function Content() {
     return (
-        <div className="content" name="contact">
+        <div className="skills" name="skills">
             Skills?
         </div>
     )

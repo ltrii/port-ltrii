@@ -1,29 +1,41 @@
 .projects {
-    width: 100vw;
+    width: 100%;
     background-color: rgb(0,0,0,.45);
-    padding: 10px;
-    margin: 15px 0;
+    padding: 5px;
     height: 90vh;
     min-height: 500px;
     border: 1px solid rgba(255,255,255,.025);
     overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projCard {
-    min-height: 100%;
+    min-height: 90%;
     min-width: 400px;
     background-color: rgba(49, 84, 90, 0.815);
     padding: 12px;
     border-radius: 5px;
     margin: 7px;
-    overflow: hidden;
+    flex: 0 0 auto;
 }
 
 .mapHolder {
     display: flex;
-    height: 100%;
-    border: 1px solid red;
-    overflow-y: auto;
-    overflow-x: hidden;
+    flex-wrap: nowrap;
+    padding: 5px;
+    height: 80vh;
+    width: 90vw;
+    overflow-y: hidden;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    border-right: 3px solid rgba(49, 84, 90, 0.815);
+}
+
+.mapHolder ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }

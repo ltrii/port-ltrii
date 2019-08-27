@@ -1,8 +1,14 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 27vh;
+    align-items: stretch;
+    justify-items: stretch;
     box-sizing: border-box;
-    padding: 10px 45px;
-    min-height: 175px;
+    padding: 15px 25px;
+    min-height: 225px;
+    width: 100%;
+}
+
+.footer div {
+    width: 100%;
 }

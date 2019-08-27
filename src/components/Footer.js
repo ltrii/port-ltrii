@@ -5,13 +5,13 @@ export default function Footer() {
     return (
         <div className="footer">
             <div>
-                one
+                A portfolio by ltrii
             </div>
             <div>
-                two
+                CONTACT INFO
             </div>
             <div>
-                three
+                Something else?
             </div>
         </div>
     )
