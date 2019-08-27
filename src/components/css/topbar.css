@@ -16,14 +16,6 @@
     z-index: 200;
 }
 
-/* .leftBar {
-
-}
-
-.rightBar {
-
-} */
-
 #nameplate {
     font-family: 'Lexend Deca', 'Lexend Exa', 'Libre Caslon Display', 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 3em;
@@ -43,6 +35,14 @@
 
 @media(max-height: 600px){
     .topBar{
+        animation: fadeIn .3s linear 0s 1 alternate both running
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        background-color: transparent;
+    } to {
         background-color: rgba(0,0,0,.75);
     }
 }

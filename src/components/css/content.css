@@ -1,6 +1,6 @@
 .skills {
     height: 100vh;
-    min-height: 100%;
+    min-height: 500px;
     background-color: rgb(250, 250, 250);
     color: rgb(5,5,5);
     width: 100%;
@@ -11,6 +11,7 @@
 .blurbHolder {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 .blurb {

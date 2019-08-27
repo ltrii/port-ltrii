@@ -1,5 +1,5 @@
 .contact {
-    background-color: rgba(0, 0, 0, 0.712);
+    animation: fadeIn .15s linear 0s 1 alternate both running;
     height: 100vh;
     min-height: 100%;
     box-sizing: border-box;
@@ -99,4 +99,12 @@
         width: 100%;
     }
 
+}
+
+@keyframes fadeIn {
+    from {
+        background-color: transparent;
+    } to {
+        background-color: rgba(0,0,0,.575);
+    }
 }
