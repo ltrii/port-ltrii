@@ -4,6 +4,7 @@ import './css/jumbo.css';
 export default function JumboMain() {
     return (
         <div className="jumboMain">
+            <div className="bgHolder" />
             <div class="topJumbo">
                 <div className="text-shadow-pop-tl">
                     Hi! I'm Leland.<br />
