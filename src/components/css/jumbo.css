@@ -2,40 +2,72 @@
     background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.938) 0%, rgba(2, 2, 2, 0.959) 100%), url(../../assets/img/code.jpg);
     filter: blur(6px);
     -webkit-filter: blur(6px);
-    z-index: -3;
+    z-index: -1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     position: absolute;
+    box-sizing: content-box;
 }
 
 .jumboMain {
+    box-sizing: content-box;
     overflow: hidden;
     position: absolute;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     -webkit-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 7px 11px 0px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 
-.text-shadow-pop-tl {
-        box-sizing: border-box;
-        height: 100%;
-        font-family: 'Lexend Exa';
-        width: 100%;
-        text-align: center;
-        padding-bottom: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 2em;
+.topJumbo {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumboText {
+    width: 400px;
+    line-height: 40px;
+}
+
+.bottomJumbo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bottomJumbo div {
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.bottomJumbo img {
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+@media (max-height: 500px) {
+    .bgHolder {
+        height: 500px;
+    }
+
+    .jumboMain {
+        height: 500px;
+    }
+
+    .topJumbo {
+        height: 450px;
+    }
 }

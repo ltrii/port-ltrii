@@ -2,7 +2,6 @@
     width: 100%;
     background-color: rgb(0,0,0,.45);
     padding: 5px;
-    height: 90vh;
     min-height: 500px;
     border: 1px solid rgba(255,255,255,.025);
     overflow: hidden;
@@ -13,7 +12,7 @@
 }
 
 .projCard {
-    min-height: 90%;
+    min-height: 300px;
     min-width: 400px;
     background-color: rgba(49, 84, 90, 0.815);
     padding: 12px;
@@ -24,16 +23,14 @@
 
 .mapHolder {
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     padding: 5px;
-    height: 80vh;
-    min-height: 400px;
     width: 90vw;
     overflow-y: hidden;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
-    border-right: 3px solid rgba(49, 84, 90, 0.815);
 }
 
 .mapHolder ::-webkit-scrollbar {
