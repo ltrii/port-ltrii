@@ -1,8 +1,11 @@
 .contact {
     animation: fadeIn .15s linear 0s 1 alternate both running;
-    height: 100vh;
     min-height: 100%;
     box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
 
 .contactGrid {
@@ -27,11 +30,12 @@
 .forForm form input {
     box-sizing: border-box;
     padding: 7px;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(10, 10, 10, 0.425);
     border: none;
     margin: 7px 0px;
     width: 75%;
     color: white;
+    border: 1px solid rgb(255,255,255, .5);
 }
 
 .forForm form textarea {
@@ -41,14 +45,28 @@
     width: 85%;
     height: 300px;
     resize: none;
-    background-color: rgba(0,0,0,.6);
-    border: none;
+    background-color: rgba(10, 10, 10, 0.425);
+    border: 1px solid rgb(255,255,255, .5);
     color: white;
 }
 
 .forOther {
     height: 100%;
     box-sizing: border-box;
+}
+
+.forOther #socials {
+
+}
+
+.forOther #socials a {
+    color: white;
+    text-decoration: underline rgba(255,255,255,.8);
+}
+
+.forOther #socials a:hover {
+    color: white;
+    text-decoration: italic;
 }
 
 #blocker {
@@ -74,6 +92,7 @@
 @media(max-width: 800px) {
     .contactGrid {
         grid-template-columns: 1fr;
+        height: 100%;
     }
 
     /* #blocker p {
@@ -105,6 +124,6 @@
     from {
         background-color: transparent;
     } to {
-        background-color: rgba(0,0,0,.575);
+        background-color: rgba(0, 0, 0, 0.753);
     }
 }

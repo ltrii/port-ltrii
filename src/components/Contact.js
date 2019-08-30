@@ -28,7 +28,9 @@ export default function Contact(props) {
                         </form>
                     </div>
                     <div className="forOther">
-                        OTHERs
+                        <div id="socials">
+                            <a href="https://www.linkedin.com/in/leland-rogers/">LinkedIn</a>
+                        </div>
                     </div>
                 </div>
             </div>
