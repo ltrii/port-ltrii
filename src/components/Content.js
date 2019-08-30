@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './css/content.css';
 
 import BlurbDisplay from './Skills/BlurbDisplay';
