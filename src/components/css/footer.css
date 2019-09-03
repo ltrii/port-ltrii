@@ -1,11 +1,10 @@
 .footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: stretch;
-    justify-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     box-sizing: border-box;
     padding: 15px 25px;
-    min-height: 225px;
+    min-height: 125px;
     width: 100%;
 }
 

@@ -8,7 +8,7 @@ export default function JumboMain() {
         <div className="jumboMain">
             <div className="bgHolder" />
             <div className="topJumbo">
-                <div className="jumboText">
+                <div className="jumboText text-focus-in">
                     Hi! I'm Leland Rogers, a full stack software engineer living in the Bay Area of California who is attending Lambda School. I'd love to work for you.
                 </div>
             </div>

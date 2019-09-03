@@ -2,12 +2,9 @@ import React from 'react';
 import "./css/projects.css";
 import ProjCard from './Projects/ProjCard';
 
-export default function Projects() {
+import projArray from './Projects/project';
 
-    const projArray = [{name: 'Neighborhood Library', desc: 'Share books'},
-                       {name: 'Bountiful Development', desc: 'User stories'},
-                       {name: 'Bountiful Development', desc: 'User stories'},
-                       {name: 'Bountiful Development', desc: 'User stories'}];
+export default function Projects() {
 
     return (
         <div className="projects" name="projects">
