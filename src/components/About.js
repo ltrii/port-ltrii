@@ -5,10 +5,10 @@ import maleava from "../assets/svg/avatar.svg"
 export default function About() {
     return (
         <div className="about" name="about">
-            <img width="75%" src={maleava} alt="Avatar" />
-            <div>
-                <p>
-                    Hi my name is Leland Thomas Rogers II and I would love to work for you.
+            {/* <img width="75%" src={maleava} alt="Avatar" /> */}
+            <div id="aboutText">
+                <p id="bigText">
+                   I would love to work for you.
                 </p>
                 <p>
                     I'm a web developer with a passion for programming of all kinds.

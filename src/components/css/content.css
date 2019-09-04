@@ -1,8 +1,14 @@
 .skills {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(253, 253, 253);
     color: rgb(5,5,5);
     width: 100%;
     padding: 10px;
+}
+
+.skills h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .blurbHolder {
@@ -13,12 +19,12 @@
 
 .blurb {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     justify-content: space-between;
-    width: 180px;
-    height: 60px;
-    background-color: rgba(0,0,0,0.03);
-    border: 2px solid rgb(0,0,0,.2);
+    background-color: rgba(0, 0, 0, 0.021);
+    border: 1px solid rgb(0,0,0,.1);
     padding: 4px 8px;
     margin: 5px;
     border-radius: 5px;

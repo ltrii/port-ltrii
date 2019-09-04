@@ -2,6 +2,11 @@ import React, { useContext } from 'react';
 import globalContext from '../context/global/globalContext';
 import './css/contact.css';
 
+import linked from '../assets/img/linked.png';
+import email from '../assets/img/email.png';
+import twitter from '../assets/img/twitter.png';
+import gitimg from '../assets/img/github.png';
+
 export default function Contact(props) {
 
     const globState = useContext(globalContext);
@@ -29,7 +34,10 @@ export default function Contact(props) {
                     </div>
                     <div className="forOther">
                         <div id="socials">
-                            <a href="https://www.linkedin.com/in/leland-rogers/">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/leland-rogers/"><img src={linked} alt="LinkedIn" /></a>
+                            <a href="https://twitter.com/_ltrii"><img src={twitter} alt="Twitter" /></a>
+                            <a href="https://github.com/ltrii"><img src={gitimg} alt="GitHub" /></a>
+                            <a href="mailto:lelandtr@gmail.com"><img src={email} alt="Email" /></a>
                         </div>
                     </div>
                 </div>

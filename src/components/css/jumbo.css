@@ -1,12 +1,12 @@
 .bgHolder{
-    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.938) 0%, rgba(2, 2, 2, 0.959) 100%), url(../../assets/img/code.jpg);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.89) 0%, rgba(2, 2, 2, 0.89) 100%), url(../../assets/img/code.jpg);
     filter: blur(6px);
     -webkit-filter: blur(6px);
     z-index: -1;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
+    height: 85vh;
     width: 100%;
     position: absolute;
     box-sizing: content-box;
@@ -16,7 +16,7 @@
     box-sizing: content-box;
     position: block;
     overflow: hidden;
-    height: 95vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
