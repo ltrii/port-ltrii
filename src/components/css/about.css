@@ -4,6 +4,7 @@
     color: rgba(0,0,0,.9);
     width: 100%;
     display: grid;
+    min-height: 600px;
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr;
