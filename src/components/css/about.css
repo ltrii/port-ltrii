@@ -1,5 +1,5 @@
 .about {
-    box-sizing: content-box;
+    box-sizing: border-box;
     background-color: rgb(250, 250, 250);
     color: rgba(0,0,0,.9);
     width: 100%;
