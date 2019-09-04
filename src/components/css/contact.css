@@ -1,6 +1,5 @@
 .contact {
     animation: fadeIn .15s linear 0s 1 alternate both running;
-    min-height: 100%;
     box-sizing: border-box;
     position: absolute;
     width: 100%;
@@ -8,11 +7,15 @@
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
 
-.contactGrid {
+/* .contactGrid {
     padding: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     box-sizing: border-box;
+} */
+
+.contactGrid{
+    width: 100%;
 }
 
 .forForm {
@@ -52,11 +55,20 @@
 
 .forOther {
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     box-sizing: border-box;
 }
 
 .forOther #socials {
-
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .forOther #socials a {
@@ -67,6 +79,10 @@
 .forOther #socials a:hover {
     color: white;
     text-decoration: italic;
+}
+
+.forOther #socials img {
+    padding: 10px;
 }
 
 #blocker {

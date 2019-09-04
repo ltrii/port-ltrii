@@ -25,13 +25,13 @@ export default function Contact(props) {
                     Get in Touch
                 </div> */}
                 <div className="contactGrid">
-                    <div className="forForm">
+                    {/* <div className="forForm">
                         <form className="contactForm">
                             <input placeholder="Your E-mail" name="email" />
                             <input placeholder="Subject" name="subject" />
                             <textarea placeholder="Your message" name="message" />
                         </form>
-                    </div>
+                    </div> */}
                     <div className="forOther">
                         <div id="socials">
                             <a href="https://www.linkedin.com/in/leland-rogers/"><img src={linked} alt="LinkedIn" /></a>
