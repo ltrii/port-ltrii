@@ -19,7 +19,7 @@ export default function Contact(props) {
         )
     } else {
         return (
-            <div className="contact">
+            <div className="contact slide-in-top">
                 <div id="blocker"></div>
                 {/* <div id="contactHeader">
                     Get in Touch
