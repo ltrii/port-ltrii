@@ -4,8 +4,9 @@
     align-items: flex-end;
     box-sizing: border-box;
     padding: 15px 25px;
-    min-height: 75px;
+    min-height: 50px;
     width: 100%;
+    font-size: 0.75em;
 }
 
 .footer div {

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.8);
     z-index: -2;
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
@@ -90,7 +90,7 @@
     height: 65px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.8);
 }
 
 #contactHeader {
