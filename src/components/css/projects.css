@@ -15,35 +15,37 @@
 }
 
 .projCard {
-    background-color: rgba(255, 255, 255, 0.048);
+    background-color: rgba(247, 247, 247, 0.925);
     border-radius: 5px;
-    border: 2px solid rgba(255,255,255,.025);
+    border: 2px solid rgba(0,0,0,.025);
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50% 15% 35%;
     height: 450px;
+    color: black;
 }
 
 .projCard #title {
     display: flex;
     align-items: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    font-weight: bold;
     padding: 9px 7px;
-    border-top: 1px solid rgba(255,255,255,.1);
-    border-bottom: 1px solid rgba(255,255,255,.1);
-    background-color: rgb(20,20,20);
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    background-color: rgba(255, 255, 255, 0.925);
     width: 100%;
 }
 
 .projCard #details {
     display: flex;
     align-items: center;
-    padding: 11px;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 0.9em;
     line-height: 20px;
-    background-color: rgb(20,20,20);
+    background-color: rgba(247, 247, 247, 0.925);
 }
 
 .projCard #img {
@@ -54,7 +56,7 @@
 
 .projCard img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .mapHolder {
