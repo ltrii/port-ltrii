@@ -51,19 +51,24 @@
 .projCard #img {
     width: 100%;
     height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     overflow: hidden;
+    padding: -30px;
 }
 
 .projCard img {
     width: 100%;
     border-radius: 2px;
+    border: 2px solid rgb(247, 247, 247);
 }
 
 .mapHolder {
     display: grid;
     padding: 50px;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     box-sizing: border-box;
 }
 

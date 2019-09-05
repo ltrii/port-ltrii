@@ -29,7 +29,8 @@
     padding: 4px 8px;
     border-radius: 5px;
     z-index: 400;
-    color: rgb(48, 48, 48)
+    color: rgb(48, 48, 48);
+    margin: 10px;
 }
 
 .blurb img {
