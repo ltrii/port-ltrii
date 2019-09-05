@@ -73,17 +73,25 @@
 }
 
 .forOther #socials a {
-    color: white;
-    text-decoration: underline rgba(255,255,255,.8);
+    color: rgb(247, 247, 247);
+    text-decoration: none;
 }
 
 .forOther #socials a:hover {
     color: white;
-    text-decoration: italic;
 }
 
 .forOther #socials img {
     padding: 10px;
+}
+
+#cntct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(137, 145, 153, 0.25);
+    border-right: 1px solid rgba(137, 145, 153, 0.25);
 }
 
 #blocker {
@@ -103,8 +111,8 @@
 }
 
 .slide-in-top {
-	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
-	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
+	-webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
+	        animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
 }
 
 @media(max-height: 600px) {

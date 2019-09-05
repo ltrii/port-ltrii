@@ -34,10 +34,10 @@ export default function Contact(props) {
                     </div> */}
                     <div className="forOther">
                         <div id="socials">
-                            <a href="https://www.linkedin.com/in/leland-rogers/"><img src={linked} alt="LinkedIn" /></a>
-                            <a href="https://twitter.com/_ltrii"><img src={twitter} alt="Twitter" /></a>
-                            <a href="https://github.com/ltrii"><img src={gitimg} alt="GitHub" /></a>
-                            <a href="mailto:lelandtr@gmail.com"><img src={email} alt="Email" /></a>
+                            <a id="cntct" href="https://www.linkedin.com/in/leland-rogers/"><img src={linked} alt="LinkedIn" /><div id="contactName">LinkedIn</div></a>
+                            <a id="cntct" href="https://twitter.com/_ltrii"><img src={twitter} alt="Twitter" /><div id="contactName">Twitter</div></a>
+                            <a id="cntct" href="https://github.com/ltrii"><img src={gitimg} alt="GitHub" /><div id="contactName">Github</div></a>
+                            <a id="cntct" href="mailto:lelandtr@gmail.com"><img src={email} alt="Email" /><div id="contactName">Email</div></a>
                         </div>
                     </div>
                 </div>
