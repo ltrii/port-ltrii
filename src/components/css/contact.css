@@ -2,7 +2,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.9);
     z-index: -2;
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
@@ -90,7 +90,7 @@
     height: 65px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.9);
 }
 
 #contactHeader {
@@ -103,8 +103,8 @@
 }
 
 .slide-in-top {
-	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
 }
 
 @media(max-height: 600px) {
