@@ -1,10 +1,12 @@
 .navlinks {
     display: flex;
     box-sizing: border-box;
+    font-family: 'Lexend Exa';
 }
 
 a {
     padding: 0 5px;
+    font-family: 'Lexend Exa';
 }
 
 a:hover {

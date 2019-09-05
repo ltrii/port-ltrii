@@ -14,6 +14,7 @@ import nodejspng from '../../assets/img/skills/nodejs.png';
 import slackpng from '../../assets/img/skills/slack.png';
 import windowspng from '../../assets/img/skills/windows.png';
 import clangpng from '../../assets/img/skills/clang.png';
+import scsspng from '../../assets/img/skills/scss.png';
 
 
 const blurbs = {
@@ -57,6 +58,10 @@ export default class BlurbDisplay extends Component {
                 <div className="blurb">
                     <div id="bimg"><img src={csspng} alt="CSS" /></div>
                     <div id="btxt">CSS</div>
+                </div>
+                <div className="blurb">
+                    <div id="bimg"><img src={scsspng} alt="SASS/SCSS" /></div>
+                    <div id="btxt">SASS/SCSS</div>
                 </div>
                 <div className="blurb">
                     <div id="bimg"><img src={nodejspng} alt="nodejs" /></div>

@@ -9,6 +9,7 @@
     justify-items: center;
     grid-template-columns: 1fr;
     padding: 100px 50px;
+    font-family: 'Roboto Condensed', 'Roboto', 'Lexend Exa', sans-serif;
 }
 
 #abouttext {
