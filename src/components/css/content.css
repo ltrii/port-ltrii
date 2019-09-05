@@ -15,9 +15,11 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    width: 50%;
+    margin: auto;
     min-height: 500px;
     flex-wrap: wrap;
-    padding: 30px 40px 60px 40px;
+    padding: 20px 0px;
 }
 
 .blurb {
@@ -39,4 +41,10 @@
     height: 96px;
     margin-bottom: 20px;
     width: auto;
+}
+
+@media(max-width: 750px){
+    .blurbHolder {
+        width: 92%;
+    }
 }
