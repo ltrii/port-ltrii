@@ -4,10 +4,10 @@ import './css/footer.css';
 export default function Footer() {
     return (
         <div className="footer">
-            <div>
+            <div id="made">
                 made by ltrii
             </div>
-            <div>
+            <div id="thanks">
                 thanks for stopping by
             </div>
         </div>

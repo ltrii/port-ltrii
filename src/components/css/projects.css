@@ -15,7 +15,7 @@
 }
 
 .projCard {
-    background-color: rgba(247, 247, 247, 0.925);
+    background-color: rgba(247, 247, 247, 1);
     border-radius: 5px;
     border: 2px solid rgba(0,0,0,.025);
     box-sizing: border-box;
@@ -34,7 +34,7 @@
     padding: 9px 7px;
     border-top: 1px solid rgba(0, 0, 0, 0.151);
     border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-    background-color: rgba(255, 255, 255, 0.925);
+    background-color: rgba(255, 255, 255, 1);
     width: 100%;
 }
 
