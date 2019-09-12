@@ -88,8 +88,10 @@
 #cntct {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 #blocker {
@@ -106,6 +108,11 @@
     padding-top: 14px;
     font-family: 'Libre Caslon Display', serif;
     font-size: 1.55em;
+}
+
+#contactName {
+    font-size: 0.875em;
+    font-family: 'Roboto Condensed', 'Roboto';
 }
 
 .slide-in-top {
