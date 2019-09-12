@@ -14,13 +14,13 @@ export default function About() {
                     I'm a web developer with a passion for programming of all kinds.
                 </p> 
                 <p>
-                	Versed in many skills (both in the back end, and front end) I believe I can bring many strengths to your team.
+                    My knowledge covers the full stack of web development. I have skills building with the basics, libraries like React, and frameworks like Ruby on Rails.
                 </p> 
                 <p>
-                    Since diving into development I have covered several languages, stacks, and more while also working on teams and collborating on projects.
+                    Since diving into development I have covered several languages, stacks, and more while also working on teams and collborating on projects. In my time at Lambda I also built assignments and sprint projects using Python and C.
                 </p>
                 <p>
-                    All in all my passion for coding only grows everyday, and I'd love to bring that into a positive work environment.    
+                    All in all my passion for coding only grows everyday, and I'd <i>love</i> to bring that into a positive work environment.    
                 </p></div>
         </div>
     )

@@ -9,6 +9,7 @@ export default function Content() {
         <div className="skills" name="skills">
             <h3>Skills</h3>
             <BlurbDisplay />
+            <div id="endText">...and more!</div>
         </div>
     )
 }

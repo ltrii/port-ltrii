@@ -90,8 +90,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-left: 1px solid rgba(137, 145, 153, 0.25);
-    border-right: 1px solid rgba(137, 145, 153, 0.25);
 }
 
 #blocker {
