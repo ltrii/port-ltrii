@@ -10,7 +10,11 @@ import Footer from './components/Footer';
 
 import GlobalState from "./context/global/globalState";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <GlobalState>
