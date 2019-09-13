@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className="about" name="about">
             {/* <img width="75%" src={maleava} alt="Avatar" /> */}
-            <div data-aos="fade" id="aboutText">
+            <div id="aboutText" data-aos="fade">
                 <p id="bigText">
                    I would love to work for you.
                 </p>
