@@ -13,8 +13,8 @@ export default function Projects() {
                     Projects
                 </h3>
                 <div className="mapHolder">
-                    {projArray.map(function(item){
-                    return <ProjCard project={item} key={Math.random()}/>
+                    {projArray.map(function(item, i){
+                    return <ProjCard animin={i} project={item} key={Math.random()}/>
                 })}
                 </div>
             </div>
