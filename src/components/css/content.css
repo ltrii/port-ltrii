@@ -1,7 +1,10 @@
 .skills {
     background-color: rgb(253, 253, 253);
+    background-image: -webkit-linear-gradient(60deg, rgba(0, 0, 0, 0.034) 50%, rgba(0, 0, 0, 0.055) 50%);
     color: #050505;
     width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .skills h3 {
@@ -15,7 +18,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    width: 67%;
+    width: 75%;
     margin: auto;
     min-height: 500px;
     flex-wrap: wrap;
