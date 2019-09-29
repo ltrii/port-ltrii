@@ -16,6 +16,8 @@ import windowspng from '../../assets/img/skills/windows.png';
 import clangpng from '../../assets/img/skills/clang.png';
 import scsspng from '../../assets/img/skills/scss.png';
 
+import dataqpng from '../../assets/img/skills/dataq.png';
+
 
 const blurbs = {
     "html": {
@@ -78,6 +80,10 @@ export default class BlurbDisplay extends Component {
                 <div className="blurb" data-aos="zoom-in">
                     <div id="bimg"><img src={postgrespng} alt="PostgreSQL" /></div>
                     <div id="btxt">PostgreSQL</div>
+                </div>
+                <div className="blurb" data-aos="zoom-in">
+                    <div id="bimg"><img src={dataqpng} alt="Data Quality" /></div>
+                    <div id="btxt">Data Validation</div>
                 </div>
                 <div className="blurb" data-aos="zoom-in">
                     <div id="bimg"><img src={rubypng} alt="Ruby" /></div>
