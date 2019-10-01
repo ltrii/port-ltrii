@@ -82,7 +82,7 @@
 }
 
 .forOther #socials img {
-    padding: 10px;
+    padding: 20px;
 }
 
 #cntct {
@@ -95,7 +95,7 @@
 }
 
 #blocker {
-    height: 65px;
+    height: 45px;
     width: 100%;
     box-sizing: border-box;
     background-color: rgba(0,0,0,.9);
