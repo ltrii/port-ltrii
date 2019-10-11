@@ -8,7 +8,7 @@ export default function About() {
             {/* <img width="75%" src={maleava} alt="Avatar" /> */}
             <div id="aboutText" data-aos="fade">
                 <p id="bigText">
-                   I would love to work for you.
+                   I would love to work with you.
                 </p>
                 <p>
                     I'm a web developer with a passion for programming of all kinds.
