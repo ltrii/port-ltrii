@@ -2,7 +2,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,.75);
+    background-color: rgba(0,0,0,.82);
     border-radius: 4px;
     z-index: -2;
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
@@ -119,13 +119,50 @@
     font-family: 'Roboto Condensed', 'Roboto';
 }
 
-#contactMessage {
+#contactForm {
+    margin: 30px;
+}
+
+#contactForm input {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    background-color: rgba(255,255,255,0.04);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+}
+
+#contactForm textarea {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.04);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+}
+
+#contactForm a {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 30px 0px 15px 0px;
-    font-size: 0.9em;
+    justify-content: center;;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.04);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 4px;
+    width: 140px;
+    margin: 5px;
+}
+
+#contactForm a:hover {
+    background-color: 1px solid rgba(255,255,255,0.08);
 }
 
 .slide-in-top {

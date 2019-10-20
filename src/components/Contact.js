@@ -2,8 +2,9 @@ import React, { useContext } from 'react';
 import globalContext from '../context/global/globalContext';
 import './css/contact.css';
 
+import ReactContactForm from 'react-mail-form';
+
 import linked from '../assets/img/linked.png';
-import email from '../assets/img/email.png';
 import twitter from '../assets/img/twitter.png';
 import gitimg from '../assets/img/github.png';
 
@@ -37,11 +38,10 @@ export default function Contact(props) {
                             <a id="cntct" href="https://www.linkedin.com/in/leland-rogers/"><img src={linked} alt="LinkedIn" /><div id="contactName">LinkedIn</div></a>
                             <a id="cntct" href="https://twitter.com/_ltrii"><img src={twitter} alt="Twitter" /><div id="contactName">Twitter</div></a>
                             <a id="cntct" href="https://github.com/ltrii"><img src={gitimg} alt="GitHub" /><div id="contactName">Github</div></a>
-                            <a id="cntct" href="mailto:lelandtr@gmail.com"><img src={email} alt="Email" /><div id="contactName">Email</div></a>
                         </div>
                     </div>
-                    <div id="contactMessage">
-                        Feel free to reach out wherever and whenever.
+                    <div id="contactForm">
+                        <ReactContactForm to="lelandtr@gmail.com" titlePlaceholder="Portfolio Inquiry - Subject Here" />
                     </div>
                 </div>
             </div>
