@@ -1,15 +1,14 @@
-import React from 'react';
-import './css/content.css';
+import React from "react";
+import "./css/content.css";
 
-import BlurbDisplay from './Skills/BlurbDisplay';
+import BlurbDisplay from "./Skills/BlurbDisplay";
 
 export default function Content() {
-    
-    return (
-        <div className="skills" name="skills">
-            <h3>Skills</h3>
-            <BlurbDisplay />
-            <div id="endText">...and more!</div>
-        </div>
-    )
+  return (
+    <div className="skills" name="skills">
+      <h3>Skills</h3>
+      <BlurbDisplay />
+      <div id="endText">...and more!</div>
+    </div>
+  );
 }

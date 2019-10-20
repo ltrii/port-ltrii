@@ -2,7 +2,7 @@
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,.82);
+    background-color: rgba(0, 0, 0, .82);
     border-radius: 4px;
     z-index: -2;
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
@@ -15,7 +15,7 @@
     box-sizing: border-box;
 } */
 
-.contactGrid{
+.contactGrid {
     width: 100%;
     padding: 10px;
 }
@@ -40,7 +40,7 @@
     margin: 7px 0px;
     width: 75%;
     color: white;
-    border: 1px solid rgb(255,255,255, .5);
+    border: 1px solid rgb(255, 255, 255, .5);
 }
 
 .forForm form textarea {
@@ -51,7 +51,7 @@
     height: 300px;
     resize: none;
     background-color: rgba(10, 10, 10, 0.425);
-    border: 1px solid rgb(255,255,255, .5);
+    border: 1px solid rgb(255, 255, 255, .5);
     color: white;
 }
 
@@ -76,13 +76,13 @@
 .forOther #socials a {
     color: rgb(247, 247, 247);
     text-decoration: none;
-    background-color: rgba(255,255,255,0.04);
+    background-color: rgba(255, 255, 255, 0.04);
     padding: 8px;
     border-radius: 4px;
 }
 
 .forOther #socials a:hover {
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(255, 255, 255, 0.08);
 }
 
 .forOther #socials img {
@@ -102,7 +102,7 @@
     height: 45px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0, 0, 0, .9);
 }
 
 #contactHeader {
@@ -129,9 +129,9 @@
     padding: 10px;
     margin: 5px;
     width: 50%;
-    background-color: rgba(255,255,255,0.04);
+    background-color: rgba(255, 255, 255, 0.04);
     color: white;
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 4px;
 }
 
@@ -141,9 +141,9 @@
     padding: 10px;
     margin: 5px;
     width: 100%;
-    background-color: rgba(255,255,255,0.04);
+    background-color: rgba(255, 255, 255, 0.04);
     color: white;
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 4px;
 }
 
@@ -151,28 +151,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;;
+    justify-content: center;
+    ;
     padding: 10px;
-    background-color: rgba(255,255,255,0.04);
+    background-color: rgba(255, 255, 255, 0.04);
     color: white;
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 4px;
     width: 140px;
     margin: 5px;
 }
 
 #contactForm a:hover {
-    background-color: 1px solid rgba(255,255,255,0.08);
+    background-color: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .slide-in-top {
-	-webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
-	        animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
+    -webkit-animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
+    animation: slide-in-top 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0s 1 both alternate;
 }
 
-@media(max-height: 600px) {
-
-}
+@media(max-height: 600px) {}
 
 @media(max-width: 800px) {
     .contactGrid {
@@ -183,22 +182,18 @@
     /* #blocker p {
         padding-right: 167px;
     } */
-    .forForm {
-        
-    }
-    
-    .forForm form {
-        
-    }
-    
+    .forForm {}
+
+    .forForm form {}
+
     .forForm form input {
         width: 100%;
     }
-    
+
     .forForm form textarea {
         width: 100%;
     }
-    
+
     .forOther {
         width: 100%;
     }
@@ -226,28 +221,30 @@
  * animation slide-in-top
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-top {
+@-webkit-keyframes slide-in-top {
     0% {
-      -webkit-transform: translateY(-1000px);
-              transform: translateY(-1000px);
-      opacity: 0;
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  @keyframes slide-in-top {
+}
+
+@keyframes slide-in-top {
     0% {
-      -webkit-transform: translateY(-1000px);
-              transform: translateY(-1000px);
-      opacity: 0;
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0;
     }
+
     100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  
+}

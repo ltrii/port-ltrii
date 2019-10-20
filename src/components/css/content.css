@@ -56,7 +56,7 @@
     font-size: 0.8em;
 }
 
-@media(max-width: 750px){
+@media(max-width: 750px) {
     .blurbHolder {
         width: 92%;
     }
