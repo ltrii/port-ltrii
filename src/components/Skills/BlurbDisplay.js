@@ -42,7 +42,6 @@ export default class BlurbDisplay extends Component {
     }
 
     curBlurbSet(blurb) {
-        console.log("uh")
         this.setState = {
             blurb: blurb
         }
