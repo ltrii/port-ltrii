@@ -19,19 +19,6 @@ import scsspng from '../../assets/img/skills/scss.png';
 import dataqpng from '../../assets/img/skills/dataq.png';
 
 
-const blurbs = {
-    "html": {
-        title: "HTML",
-        desc: "HyperText Markup Language",
-        link: ""
-    },
-    "react": {
-        title: "React.js",
-        desc: "Fantastic JS library",
-        link: ""
-    }
-}
-
 export default class BlurbDisplay extends Component {
     constructor(props){
         super(props);
@@ -113,9 +100,6 @@ export default class BlurbDisplay extends Component {
                     <div id="btxt">Slack</div>
                 </div>
             </div>
-            {/* <div className="blurbInfo">
-                {blurbs[this.state.curblurb].title}
-            </div> */}
         </div>
         )
     }

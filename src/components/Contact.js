@@ -40,6 +40,9 @@ export default function Contact(props) {
                             <a id="cntct" href="mailto:lelandtr@gmail.com"><img src={email} alt="Email" /><div id="contactName">Email</div></a>
                         </div>
                     </div>
+                    <div id="contactMessage">
+                        Feel free to reach out wherever and whenever.
+                    </div>
                 </div>
             </div>
         )

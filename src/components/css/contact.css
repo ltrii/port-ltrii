@@ -2,7 +2,8 @@
     box-sizing: border-box;
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
     z-index: -2;
     border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
@@ -75,14 +76,17 @@
 .forOther #socials a {
     color: rgb(247, 247, 247);
     text-decoration: none;
+    background-color: rgba(255,255,255,0.04);
+    padding: 8px;
+    border-radius: 4px;
 }
 
 .forOther #socials a:hover {
-    color: white;
+    background-color: rgba(255,255,255,0.08);
 }
 
 .forOther #socials img {
-    padding: 20px;
+    padding: 15px;
 }
 
 #cntct {
@@ -113,6 +117,15 @@
 #contactName {
     font-size: 0.875em;
     font-family: 'Roboto Condensed', 'Roboto';
+}
+
+#contactMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px 15px 0px;
+    font-size: 0.9em;
 }
 
 .slide-in-top {
