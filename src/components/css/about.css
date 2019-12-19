@@ -1,24 +1,24 @@
 .about {
-    box-sizing: border-box;
-    background-color: rgb(252, 252, 252);
-    color: rgba(0, 0, 0, 0.986);
-    width: 100%;
-    display: flex;
-    min-height: 600px;
-    font-size: 1.1em;
-    align-items: center;
-    justify-items: center;
-    font-family: 'Roboto Condensed', 'Roboto', 'Lexend Exa', sans-serif;
+  box-sizing: border-box;
+  background-color: rgb(252, 252, 252);
+  color: rgba(0, 0, 0, 0.986);
+  width: 100%;
+  display: flex;
+  min-height: 600px;
+  font-size: 1.1em;
+  align-items: center;
+  justify-items: center;
+  font-family: "Roboto Condensed", "Roboto", "Lexend Exa", sans-serif;
 }
 
 #aboutText {
-    width: 67%;
-    margin: auto;
-    box-sizing: border-box;
+  width: 67%;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 #bigText {
-    font-size: 2em;
-    font-family: 'Roboto';
-    font-weight: 300;
+  font-size: 2em;
+  font-family: "Roboto";
+  font-weight: 300;
 }

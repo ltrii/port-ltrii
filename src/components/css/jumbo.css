@@ -1,5 +1,10 @@
 .bgHolder {
-  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.89) 0%, rgba(2, 2, 2, 0.89) 100%), url(../../assets/img/code.jpg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0.89) 0%,
+      rgba(2, 2, 2, 0.89) 100%
+    ),
+    url(../../assets/img/code.jpg);
   filter: blur(6px);
   -webkit-filter: blur(6px);
   z-index: -1;
@@ -40,7 +45,7 @@
   margin: 20px 0px;
   box-sizing: border-box;
   font-size: 1.5em;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
 }
 
 .topJumbo #emailBtn {
@@ -79,20 +84,20 @@
   margin: 10px;
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .jumboText {
     width: 350px;
   }
 }
 
 .text-focus-in {
-  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
 .fade-in {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-  animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 /* ----------------------------------------------

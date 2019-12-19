@@ -10,12 +10,12 @@ const GlobalState = props => {
 
   const [state, dispatch] = useReducer(globalReducer, initialState);
 
-  const openContact = (current) => {
-      dispatch({
-          type: OPEN_CONTACT,
-          payload: current
-      })
-  }
+  const openContact = current => {
+    dispatch({
+      type: OPEN_CONTACT,
+      payload: current
+    });
+  };
 
   return (
     <globalContext.Provider

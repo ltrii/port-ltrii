@@ -1,24 +1,24 @@
 .navlinks {
-    display: flex;
-    box-sizing: border-box;
-    font-family: 'Lexend Exa';
+  display: flex;
+  box-sizing: border-box;
+  font-family: "Lexend Exa";
 }
 
 a {
-    padding: 0 5px;
-    font-family: 'Lexend Exa';
+  padding: 0 5px;
+  font-family: "Lexend Exa";
 }
 
 a:hover {
-    color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 button {
-    background-color: transparent;
-    color: white;
-    border: none;
+  background-color: transparent;
+  color: white;
+  border: none;
 }
 
 button:hover {
-    color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, 0.75);
 }

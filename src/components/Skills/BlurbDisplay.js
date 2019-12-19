@@ -16,6 +16,8 @@ import windowspng from "../../assets/img/skills/windows.png";
 import clangpng from "../../assets/img/skills/clang.png";
 import scsspng from "../../assets/img/skills/scss.png";
 
+import graphql from "../../assets/img/skills/graphql.png";
+
 import dataqpng from "../../assets/img/skills/dataq.png";
 
 export default class BlurbDisplay extends Component {
@@ -86,6 +88,12 @@ export default class BlurbDisplay extends Component {
               <img src={postgrespng} alt="PostgreSQL" />
             </div>
             <div id="btxt">PostgreSQL</div>
+          </div>
+          <div className="blurb" data-aos="zoom-in">
+            <div id="bimg">
+              <img src={graphql} alt="GraphQL" />
+            </div>
+            <div id="btxt">GraphQL</div>
           </div>
           <div className="blurb" data-aos="zoom-in">
             <div id="bimg">
