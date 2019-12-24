@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50% 15% 35%;
-    min-height: 450px;
+    height: 450px;
     max-width: 320px;
     color: black;
 }
@@ -56,10 +56,6 @@
     width: 100%;
     height: fit-content;
     display: flex;
-    justify-content: stretch;
-    align-items: stretch;
-    overflow: hidden;
-    padding: -30px;
     border-radius: 3px;
 }
 
@@ -68,6 +64,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     border: 2px solid rgb(247, 247, 247);
+    object-fit: contain;
+    border-radius: 4px;
 }
 
 .mapHolder {
