@@ -55,7 +55,6 @@
 }
 
 .projCard #img {
-<<<<<<< HEAD
   width: 100%;
   height: fit-content;
   display: flex;
@@ -69,21 +68,6 @@
   border: 2px solid rgb(247, 247, 247);
   object-fit: contain;
   border-radius: 4px;
-=======
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    border-radius: 3px;
-}
-
-.projCard img {
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    border: 2px solid rgb(247, 247, 247);
-    object-fit: contain;
-    border-radius: 4px;
->>>>>>> e1f38646b3309598d5c5e1b1c34dd2777ee4c004
 }
 
 .mapHolder {
