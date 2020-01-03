@@ -7,13 +7,13 @@ const projArray = [
   {
     name: "Sleepsta",
     desc:
-      "Working in a team within a multi week project, Sleepsta, in tandem with the app, tracks your sleep patterns to help you get better sleep and improve you habits.",
+      "Working in a team within a multi week project, Sleepsta, in tandem with the app, tracks your sleep patterns to help you get better sleep and improve your nightly sleep habits.",
     img: sleepsta
   },
   {
     name: "Coordinator Storytelling",
     desc:
-      "App to help coordinators and members of charitable organizations share their stories in a localized hub. ",
+      "A web app to help coordinators and members of charitable organizations share their stories in an easy to access hub. ",
     img: coordinate
   },
   {
@@ -25,7 +25,7 @@ const projArray = [
   {
     name: "How-To",
     desc:
-      "Led a team in the creation of a simple repository for tutorials and how-tos on anything. Over the course of a week I guided the team and helped them execute the goals of the project.",
+      "Led a team in the creation of a simple repository for tutorials and how-tos on anything and everything you could think of. Over the course of a week I guided the team and helped them execute the goals of the project.",
     img: howto
   }
 ];
