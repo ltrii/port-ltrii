@@ -4,7 +4,7 @@ export default function ProjCard(props) {
   return (
     <div
       data-aos="fade-up"
-      data-aos-duration={props.animin * 600}
+      data-aos-duration={props.animin * 400}
       className="projCard"
     >
       <img src={props.project.img} alt="project img" />
