@@ -1,83 +1,83 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 0, 0, .55);
-    min-height: 600px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, .025);
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0, 0.55);
+  min-height: 600px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.025);
+  display: flex;
+  box-sizing: border-box;
 }
 
 .projects h3 {
-    width: 100%;
-    text-align: center;
-    font-size: 1.3em;
+  width: 90%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3em;
 }
 
 .projCard {
-    background-color: rgba(247, 247, 247, 1);
-    border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, .025);
-    box-sizing: border-box;
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50% 15% 35%;
-    min-height: 450px;
-    max-width: 320px;
-    color: black;
+  background-color: rgba(247, 247, 247, 1);
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.025);
+  box-sizing: border-box;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50% 15% 35%;
+  height: 450px;
+  max-width: 320px;
+  color: black;
 }
 
 .projCard #title {
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 9px 7px;
-    border-top: 1px solid rgba(0, 0, 0, 0.151);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-    background-color: rgba(255, 255, 255, 1);
-    width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 9px 7px;
+  border-top: 1px solid rgba(0, 0, 0, 0.151);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
 }
 
 .projCard #details {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 0.9em;
-    line-height: 20px;
-    background-color: rgba(247, 247, 247, 1);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.9em;
+  line-height: 20px;
+  background-color: rgba(247, 247, 247, 1);
 }
 
 .projCard #img {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: stretch;
-    align-items: stretch;
-    overflow: hidden;
-    padding: -30px;
-    border-radius: 3px;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  border-radius: 3px;
 }
 
 .projCard img {
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
-    border: 2px solid rgb(247, 247, 247);
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  border: 2px solid rgb(247, 247, 247);
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .mapHolder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .innerProj {
-    padding: 10px;
+  padding: 10px;
 }

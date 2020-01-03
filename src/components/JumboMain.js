@@ -17,7 +17,7 @@ export default function JumboMain() {
         </a>
       </div>
       <div className="bottomJumbo">
-        <div>Where I'm attending: </div>
+        <div>Learned my skills @</div>
         <a href="https://lambdaschool.com/">
           <img src={lambdaImg} alt="Lambda School" />
         </a>

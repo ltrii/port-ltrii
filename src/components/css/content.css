@@ -12,8 +12,11 @@
 }
 
 .skills h3 {
-  width: 100%;
-  text-align: center;
+  width: 90%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin: auto;
   font-size: 1.3em;
 }
 
