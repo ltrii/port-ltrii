@@ -9,15 +9,12 @@ import pythonpng from "../../assets/img/skills/python.png";
 import reactpng from "../../assets/img/skills/react.png";
 import rubypng from "../../assets/img/skills/ruby.png";
 import sqlpng from "../../assets/img/skills/sql.png";
-
 import nodejspng from "../../assets/img/skills/nodejs.png";
 import slackpng from "../../assets/img/skills/slack.png";
 import windowspng from "../../assets/img/skills/windows.png";
 import clangpng from "../../assets/img/skills/clang.png";
 import scsspng from "../../assets/img/skills/scss.png";
-
 import graphql from "../../assets/img/skills/graphql.png";
-
 import dataqpng from "../../assets/img/skills/dataq.png";
 
 export default class BlurbDisplay extends Component {
