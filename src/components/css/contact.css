@@ -8,51 +8,9 @@
   border-bottom: 3px solid rgba(0, 0, 0, 0.89);
 }
 
-/* .contactGrid {
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    box-sizing: border-box;
-} */
-
 .contactGrid {
   width: 100%;
   padding: 10px;
-}
-
-.forForm {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.forForm form {
-  color: white;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-.forForm form input {
-  box-sizing: border-box;
-  padding: 7px;
-  background-color: rgba(10, 10, 10, 0.425);
-  border: none;
-  margin: 7px 0px;
-  width: 75%;
-  color: white;
-  border: 1px solid rgb(255, 255, 255, 0.5);
-}
-
-.forForm form textarea {
-  box-sizing: border-box;
-  margin: 7px 0px;
-  padding: 7px;
-  width: 85%;
-  height: 300px;
-  resize: none;
-  background-color: rgba(10, 10, 10, 0.425);
-  border: 1px solid rgb(255, 255, 255, 0.5);
-  color: white;
 }
 
 .forOther {
@@ -66,9 +24,10 @@
 
 .forOther #socials {
   height: 100%;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
 }
@@ -77,7 +36,8 @@
   color: rgb(247, 247, 247);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.04);
-  padding: 8px;
+  padding: 4px;
+  margin: 4px;
   border-radius: 4px;
 }
 
@@ -86,7 +46,7 @@
 }
 
 .forOther #socials img {
-  padding: 15px;
+  padding: 8px;
 }
 
 #cntct {
@@ -120,7 +80,8 @@
 }
 
 #contactForm {
-  margin: 30px;
+  width: 75%;
+  margin: 24px auto;
 }
 
 #contactForm input {
@@ -138,6 +99,7 @@
 #contactForm textarea {
   display: flex;
   flex-direction: column;
+  resize: none;
   padding: 10px;
   margin: 5px;
   width: 100%;
@@ -152,11 +114,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.04);
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 4px;
+  border-radius: 2px;
   width: 140px;
   margin: 5px;
 }
@@ -172,43 +135,20 @@
     alternate;
 }
 
-@media (max-height: 600px) {
-}
-
 @media (max-width: 800px) {
   .contactGrid {
     grid-template-columns: 1fr;
     height: 100%;
   }
 
-  /* #blocker p {
-        padding-right: 167px;
-    } */
-  .forForm {
-  }
-
-  .forForm form {
-  }
-
-  .forForm form input {
-    width: 100%;
-  }
-
-  .forForm form textarea {
-    width: 100%;
-  }
-
   .forOther {
     width: 100%;
   }
 
-  .forOther #socials {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: stretch;
-    justify-items: center;
+  #contactForm {
+    width: 95%;
   }
+
 }
 
 /* ----------------------------------------------

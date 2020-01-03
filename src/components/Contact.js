@@ -17,17 +17,7 @@ export default function Contact(props) {
     return (
       <div className="contact slide-in-top">
         <div id="blocker"></div>
-        {/* <div id="contactHeader">
-                    Get in Touch
-                </div> */}
         <div className="contactGrid">
-          {/* <div className="forForm">
-                        <form className="contactForm">
-                            <input placeholder="Your E-mail" name="email" />
-                            <input placeholder="Subject" name="subject" />
-                            <textarea placeholder="Your message" name="message" />
-                        </form>
-                    </div> */}
           <div className="forOther">
             <div id="socials">
               <a id="cntct" href="https://www.linkedin.com/in/leland-rogers/">
