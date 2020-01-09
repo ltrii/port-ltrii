@@ -31,7 +31,7 @@ export default function Nav() {
       >
         Skills
       </Scroll.Link>
-      <button onClick={() => setOpen()}>Contact</button>
+      <button onClick={() => setOpen()}>Contact/Social</button>
     </nav>
   );
 }

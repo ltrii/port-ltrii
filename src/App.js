@@ -24,9 +24,9 @@ function App() {
             <JumboMain />
           </div>
           <div className="lowers">
-            <About />
             <Projects />
             <Content />
+            <About />
             <Footer />
           </div>
         </div>

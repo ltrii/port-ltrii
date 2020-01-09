@@ -13,9 +13,10 @@ export default function JumboMain() {
           East Bay Area of California. <br></br> Here's a quick peek at my skills.
         </div>
         <a className="fade-in" href="mailto:lelandtr@gmail.com" id="emailBtn">
-          Email Me Now.
+          Email Me
         </a>
       </div>
+      <div id="scrolldown">↓</div>
       <div className="bottomJumbo">
         <div>Learned my skills @</div>
         <a href="https://lambdaschool.com/">

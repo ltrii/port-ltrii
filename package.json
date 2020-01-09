@@ -1,6 +1,6 @@
 {
   "name": "port-ltrii",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "dependencies": {
     "aos": "^3.0.0-beta.6",
