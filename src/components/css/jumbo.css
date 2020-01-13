@@ -73,8 +73,12 @@
 }
 
 .bottomJumbo div {
-  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px;
+  font-size: 1.2em;
+  height: 32px;
 }
 
 .bottomJumbo img {

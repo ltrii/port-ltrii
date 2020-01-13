@@ -7,11 +7,10 @@ export default function ProjCard(props) {
       data-aos-duration={props.animin * 400}
       className="projCard"
     >
-      <img src={props.project.img} alt={props.project.name} />
 
+      <img src={props.project.img} alt={props.project.name} />
       <div id="title">{props.project.name}</div>
       <div id="details">{props.project.desc}</div>
-      <div id="technologies"></div>
     </div>
   );
 }
