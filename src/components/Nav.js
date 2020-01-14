@@ -12,9 +12,6 @@ export default function Nav() {
 
   return (
     <nav className="navlinks">
-      <Scroll.Link activeClass="active" to="about" smooth={true} duration={500}>
-        About
-      </Scroll.Link>
       <Scroll.Link
         activeClass="active"
         to="projects"
@@ -31,7 +28,10 @@ export default function Nav() {
       >
         Skills
       </Scroll.Link>
-      <button onClick={() => setOpen()}>Contact/Social</button>
+      <Scroll.Link activeClass="active" to="about" smooth={true} duration={500}>
+        About
+      </Scroll.Link>
+      <button onClick={() => setOpen()}>Contact</button>
     </nav>
   );
 }
