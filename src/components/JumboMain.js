@@ -1,4 +1,5 @@
 import React from "react";
+import * as Scroll from "react-scroll";
 import "./css/jumbo.css";
 
 import lambdaImg from "../assets/img/lambda.png";
@@ -16,7 +17,14 @@ export default function JumboMain() {
           Email Me
         </a>
       </div>
-      <div id="scrolldown">↓</div>
+      <Scroll.Link
+        activeClass="active"
+        to="projects"
+        smooth={true}
+        duration={400}
+      >
+        <div id="scrolldown">↓</div>
+      </Scroll.Link>
       <div className="bottomJumbo">
         <div>Learned my skills @</div>
         <a href="https://lambdaschool.com/">
