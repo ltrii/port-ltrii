@@ -102,6 +102,11 @@
   border-radius: 50%;
 }
 
+#scrolldown img {
+  height: 32px;
+  width: 32px;
+}
+
 @media (max-width: 500px) {
   .jumboText {
     width: 350px;

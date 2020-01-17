@@ -3,6 +3,7 @@ import * as Scroll from "react-scroll";
 import "./css/jumbo.css";
 
 import lambdaImg from "../assets/img/lambda.png";
+import downArrow from "../assets/img/downarrow.png";
 
 export default function JumboMain() {
   return (
@@ -23,7 +24,7 @@ export default function JumboMain() {
         smooth={true}
         duration={400}
       >
-        <div id="scrolldown">↓</div>
+        <div id="scrolldown"><img src={downArrow} alt="See more" /></div>
       </Scroll.Link>
       <div className="bottomJumbo">
         <div>Learned my skills @</div>
