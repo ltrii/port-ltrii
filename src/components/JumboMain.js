@@ -12,7 +12,7 @@ export default function JumboMain() {
       <div className="topJumbo">
         <div className="jumboText text-focus-in">
           Hi! I'm Leland Rogers. I'm a full stack software developer from the
-          East Bay Area of California. <br></br> Here's a quick peek at my skills.
+          East Bay Area of California. <br /> <br /> Scroll down for a peak at my skills
         </div>
         <a className="fade-in" href="mailto:lelandtr@gmail.com" id="emailBtn">
           Email Me
