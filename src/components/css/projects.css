@@ -49,8 +49,11 @@
 
 .projCard #details {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 20px;
+  height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   font-size: 0.95em;
   line-height: 20px;
@@ -61,6 +64,7 @@
   width: 100%;
   height: fit-content;
   display: flex;
+  align-items: center;
   border-radius: 3px;
 }
 
@@ -71,6 +75,7 @@
   border: 2px solid rgb(247, 247, 247);
   object-fit: contain;
   border-radius: 4px;
+  margin: auto;
 }
 
 .mapHolder {
@@ -84,4 +89,10 @@
 
 .innerProj {
   padding: 10px;
+}
+
+#githubLink {
+  height: 25px;
+  width: 100%;
+  text-decoration: none;
 }

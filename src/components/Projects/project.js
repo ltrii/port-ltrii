@@ -2,6 +2,7 @@ import sleepsta from "../../assets/img/projects/sleepsta.png";
 import coordinate from "../../assets/img/projects/coordinate.png";
 import pinter from "../../assets/img/projects/pinter.png";
 import howto from "../../assets/img/projects/howto.png";
+import library from "../../assets/img/projects/library.png";
 
 const projArray = [
   {
@@ -30,6 +31,13 @@ const projArray = [
     desc:
       "Led a team in the creation of a simple repository for tutorials and how-tos on anything and everything you could think of. Over the course of a week I guided the team and helped them execute the goals of the project.",
     img: howto,
+    githubUrl: ""
+  },
+  {
+    name: "Neighborhood Library",
+    desc:
+      "Participated in a team which created a hub for sharing books in your local area. The app would allow users to search their area and share or borrow books.",
+    img: library,
     githubUrl: ""
   }
 ];
