@@ -77,8 +77,8 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  font-size: 1.4em;
-  height: 32px;
+  font-size: 1.25em;
+  height: 100%;
 }
 
 .bottomJumbo img {
@@ -91,9 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 800;
   background-color: rgba(255, 255, 255, 0.03);
   color: rgb(255, 255, 255, 0.8);
