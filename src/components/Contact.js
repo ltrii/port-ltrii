@@ -4,9 +4,21 @@ import "./css/contact.css";
 
 import ReactContactForm from "react-mail-form";
 
+import nodemailer from "nodemailer";
+
 import linked from "../assets/img/linked.png";
 // import twitter from "../assets/img/twitter.png";
 import gitimg from "../assets/img/github.png";
+
+var transport = nodemailer.createTransport(
+  "SMTP",
+  {
+    auth: {
+      user: "lelandrogers@gmail.com",
+      pass: process.env.REACT_APP_GOOGLE_PASS
+    }
+  }
+)
 
 export default function Contact(props) {
   const globState = useContext(globalContext);
