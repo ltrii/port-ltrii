@@ -5,7 +5,7 @@ import "./css/contact.css";
 import ReactContactForm from "react-mail-form";
 
 import linked from "../assets/img/linked.png";
-import twitter from "../assets/img/twitter.png";
+// import twitter from "../assets/img/twitter.png";
 import gitimg from "../assets/img/github.png";
 
 export default function Contact(props) {
@@ -24,10 +24,10 @@ export default function Contact(props) {
                 <img src={linked} alt="LinkedIn" />
                 <div id="contactName">LinkedIn</div>
               </a>
-              <a id="cntct" href="https://twitter.com/_ltrii">
+              {/* <a id="cntct" href="https://twitter.com/_ltrii">
                 <img src={twitter} alt="Twitter" />
                 <div id="contactName">Twitter</div>
-              </a>
+              </a> */}
               <a id="cntct" href="https://github.com/ltrii">
                 <img src={gitimg} alt="GitHub" />
                 <div id="contactName">Github</div>
@@ -37,7 +37,7 @@ export default function Contact(props) {
           <div id="contactForm">
             <ReactContactForm
               to="lelandtr@gmail.com"
-              titlePlaceholder="Portfolio Inquiry - Subject Here"
+              titlePlaceholder="Subject"
             />
           </div>
         </div>
