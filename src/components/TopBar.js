@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./css/topbar.css";
+import "../assets/css/topbar.css";
 import Nav from "./Nav";
 import Contact from "./Contact";
 import top from "../assets/img/top.png";

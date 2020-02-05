@@ -5,7 +5,7 @@ import TopBar from "./components/TopBar";
 import JumboMain from "./components/JumboMain";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Content from "./components/Content";
+import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 
 import GlobalState from "./context/global/globalState";
@@ -25,7 +25,7 @@ function App() {
           </div>
           <div className="lowers">
             <Projects />
-            <Content />
+            <Skills />
             <About />
             <Footer />
           </div>

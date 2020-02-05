@@ -17,7 +17,8 @@ const projArray = [
     desc:
       "A web app to help coordinators and members of charitable organizations share their stories in an easy to access hub. ",
     img: coordinate,
-    githubUrl: "https://github.com/bountiful-development/frontend-coordinator-storytelling"
+    githubUrl:
+      "https://github.com/bountiful-development/frontend-coordinator-storytelling"
   },
   {
     name: "Pintereach",

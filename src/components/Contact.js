@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import globalContext from "../context/global/globalContext";
-import "./css/contact.css";
+import "../assets/css/contact.css";
 
 import ReactContactForm from "react-mail-form";
 

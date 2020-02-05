@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import globalContext from "../context/global/globalContext";
 import * as Scroll from "react-scroll";
-import "./css/nav.css";
+import "../assets/css/nav.css";
 
 export default function Nav() {
   const globState = useContext(globalContext);

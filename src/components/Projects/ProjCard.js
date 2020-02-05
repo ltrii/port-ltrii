@@ -11,13 +11,6 @@ export default function ProjCard(props) {
       <div id="title">{props.project.name}</div>
       <div id="details">
         {props.project.desc}
-        {/* {props.project.githubUrl.length !== 0 ? (
-          <div id="githubLink">
-          <a href={props.project.githubUrl}>Github</a>
-          </div>
-        ) : (
-          null
-        )} */}
       </div>
     </div>
   );

@@ -1,13 +1,13 @@
-import { OPEN_CONTACT } from '../types';
+import { OPEN_CONTACT } from "../types";
 
 export default (state, action) => {
   switch (action.type) {
     case OPEN_CONTACT:
-        return {
-            ...state,
-            open: action.payload
-        };
+      return {
+        ...state,
+        open: action.payload
+      };
     default:
-        return state;
+      return state;
   }
 };

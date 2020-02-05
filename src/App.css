@@ -1,11 +1,11 @@
 body {
   background-color: #111111;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', 'Roboto', 'Lexend Exa', sans-serif;
+  font-family: "Roboto Condensed", "Roboto", "Lexend Exa", sans-serif;
 }
 
 .funcHold {
