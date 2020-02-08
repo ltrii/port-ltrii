@@ -71,10 +71,8 @@
 .projCard img {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
-  border: 2px solid rgb(247, 247, 247);
-  object-fit: contain;
   border-radius: 4px;
+  object-fit: cover;
   margin: auto;
 }
 
