@@ -12,7 +12,7 @@ export default function JumboMain() {
       <div className="topJumbo">
         <div className="jumboText text-focus-in">
           Hi! I'm Leland Thomas Rogers. I'm a full stack software developer from
-          with skills in modern technolgies like React.JS. Scroll down for a
+          with skills in modern technolgies. Scroll down for a
           peek at my skills.
         </div>
         <a className="fade-in" href="mailto:lelandtr@gmail.com" id="emailBtn">

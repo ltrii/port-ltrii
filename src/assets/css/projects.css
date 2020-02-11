@@ -25,12 +25,12 @@
   border-radius: 5px;
   border: 2px solid rgba(0, 0, 0, 0.048);
   box-sizing: border-box;
-  margin: 20px;
+  margin: 16px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50% 15% 35%;
   height: 450px;
-  max-width: 320px;
+  max-width: 300px;
   color: black;
 }
 
@@ -65,7 +65,7 @@
   height: fit-content;
   display: flex;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .projCard img {
