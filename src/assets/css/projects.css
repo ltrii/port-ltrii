@@ -6,6 +6,7 @@
   background-color: rgb(255, 255, 255);
   color: black;
   width: 100%;
+  min-height: 575px;
   border: 1px solid rgba(255, 255, 255, 0.025);
   box-sizing: border-box;
 }
@@ -26,6 +27,7 @@
   border: 2px solid rgba(0, 0, 0, 0.048);
   box-sizing: border-box;
   margin: 16px;
+  padding: 2px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 50% 15% 35%;
@@ -42,7 +44,6 @@
   font-size: 1.8em;
   font-weight: bold;
   padding: 9px 7px;
-  border-top: 1px solid rgba(0, 0, 0, 0.151);
   border-bottom: 1px solid rgba(0, 0, 0, 0.158);
   background-color: rgba(255, 255, 255, 1);
   width: 100%;
@@ -51,22 +52,14 @@
 .projCard #details {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   padding: 20px;
   height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-  font-size: 0.95em;
+  font-size: 0.945em;
   line-height: 20px;
-  background-color: rgb(247, 247, 247);
-}
-
-.projCard #img {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
+  background-color: rgb(252, 252, 252);
 }
 
 .projCard img {
@@ -74,9 +67,9 @@
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.103);
   object-fit: cover;
   margin: auto;
-  padding: 4px;
 }
 
 .mapHolder {
