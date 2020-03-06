@@ -2,11 +2,11 @@
   display: flex;
   box-sizing: border-box;
   font-family: "Lexend Exa";
-  font-size: 0.95em;
+  font-size: 0.925em;
 }
 
 a {
-  padding: 0 5px;
+  padding: 0 4px;
   font-family: "Lexend Exa";
 }
 

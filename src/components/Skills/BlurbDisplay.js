@@ -18,29 +18,11 @@ import graphql from "../../assets/img/skills/graphql.png";
 import dataqpng from "../../assets/img/skills/dataq.png";
 
 export default class BlurbDisplay extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      curblurb: "react"
-    };
-    this.curBlurbSet = this.curBlurbSet.bind(this);
-  }
-
-  curBlurbSet(blurb) {
-    this.setState = {
-      blurb: blurb
-    };
-  }
-
   render() {
     return (
       <div className="blurbDisplay">
         <div className="blurbHolder">
-          <div
-            className="blurb"
-            data-aos="zoom-in"
-            onClick={this.curBlurbSet("html")}
-          >
+          <div className="blurb" data-aos="zoom-in">
             <div id="bimg">
               <img src={htmlpng} alt="HTML" />
             </div>
@@ -67,7 +49,6 @@ export default class BlurbDisplay extends Component {
           <div
             className="blurb"
             data-aos="zoom-in"
-            onClick={this.curBlurbSet("react")}
           >
             <div id="bimg">
               <img src={reactpng} alt="React.js" />
