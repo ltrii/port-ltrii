@@ -24,9 +24,9 @@
 }
 
 .projCard {
-  background-color: rgba(0, 0, 0, 0.021);
   border-radius: 5px;
-  border: 2px solid rgba(0, 0, 0, 0.048);
+  border: 1px solid rgba(0, 0, 0, 0.048);
+  background-color: white;
   box-sizing: border-box;
   margin: 16px;
   padding: 2px;
@@ -46,9 +46,11 @@
   font-size: 1.7em;
   font-weight: bold;
   padding: 9px 7px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-  background-color: rgba(255, 255, 255, 1);
   width: 100%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px;
+  color: rgb(32, 32, 32);
+  margin: 4px 0px;
 }
 
 .projCard #details {
@@ -60,7 +62,6 @@
   height: 100%;
   font-size: 0.945em;
   line-height: 20px;
-  background-color: rgb(252, 252, 252);
 }
 
 .projCard img {
