@@ -1,38 +1,7 @@
-body {
-  background-color: #111111;
-  color: #ffffff;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: "Roboto Condensed", "Roboto", "Lexend Exa", sans-serif;
-}
-
-.funcHold {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.lowers {
+.portfolio-main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  z-index: -315;
-}
-
-.uppers {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  z-index: 300;
-}
-
-[aos="fade"] {
-  opacity: 0;
-  transition-property: opacity;
-}
-
-[aos="fade"].aos-animate {
-  opacity: 1;
+  justify-content: center;
+  font-size: 0.8em;
+  height: 100vh;
 }

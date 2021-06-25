@@ -1,16 +1,15 @@
 {
-  "name": "port-ltrii",
-  "version": "0.2.4",
+  "name": "port2",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "nodemailer": "^6.4.6",
-    "normalize.css": "^8.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-mail-form": "^2.1.0",
-    "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +18,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
