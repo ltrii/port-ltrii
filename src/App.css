@@ -1,7 +1,17 @@
 .portfolio-main {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 0.8em;
   height: 100vh;
+}
+
+.portfolio-main h1 {
+  margin: 0;
+}
+
+.portfolio-main a {
+  color: rgb(87, 3, 126);
+  font-style: oblique;
 }
