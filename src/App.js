@@ -1,10 +1,26 @@
+import { useState } from 'react';
 import './App.css';
+import Top from './components/Top';
+import TopContent from './components/TopContent';
+import Znav from './components/Znav';
+import Contact from './components/Contact';
 
 function App() {
+  const [setter, setsetter] = useState("main");
+
   return (
     <div className="portfolio-main">
-      <h1>Leland Thomas Rogers II</h1>
-      <p>I work at <a href="https://www.singlestore.com">SingleStore</a>. This site is under work.</p>
+      <div>
+        <Top />
+        <div id="switcher">
+          {setter === "main" ? <TopContent /> : null}
+          {setter === "contact" ? <Contact /> : null}
+          <p id="red-notice">This site is undergoing work as I am currently updating it and improving it.</p>
+        </div>
+      </div>
+      <div>
+        <Znav sfn={setsetter} />
+      </div>
     </div>
   );
 }
