@@ -19,9 +19,7 @@ function App() {
           {setter === "skills" ? <Skills /> : null}
         </div>
       </div>
-      <div>
         <Znav sfn={setsetter} />
-      </div>
     </div>
   );
 }

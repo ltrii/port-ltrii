@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Skills() {
     const skills_arr = [
-        "Python", "C", "Ruby", "React", "Express", "MySQL", "Postgres"
+        "AWS", "HTML/CSS","JavaScript", "Python", "C", "Ruby", "React.JS", "Redux", "Express", "MySQL", "Postgres"
     ]
     return (
         <div id="skills">
