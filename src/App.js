@@ -17,7 +17,6 @@ function App() {
           {setter === "main" ? <TopContent /> : null}
           {setter === "contact" ? <Contact /> : null}
           {setter === "skills" ? <Skills /> : null}
-          <p id="red-notice">This site is undergoing work as I am currently updating it and improving it.</p>
         </div>
       </div>
       <div>

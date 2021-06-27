@@ -25,9 +25,17 @@ a {
 
 #switcher {
   width: 100%;
-  font-size: 1.2em;
+  height: 100%;
+  font-size: 1.15em;
   font-family: 'Archivo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.44;
+  overflow: auto;
+}
+
+#top-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #top-content #s2 {
@@ -38,10 +46,11 @@ a {
 }
 
 #znav {
+  position: sticky;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  padding: 32px 0px;
+  padding: 22px 0px;
 }
 
 #znav button {
@@ -52,18 +61,6 @@ a {
 
 #znav button:hover {
   font-weight: bold;
-}
-
-#red-notice {
-  background-color: rgba(243, 21, 21, 0.582);
-  border: 4px solid rgba(243, 21, 21, 0.137);
-  color:#1c1c1d;
-  border-radius: 4px;
-  padding: 8px;
-  margin: 32px auto;
-  width: 67%;
-  font-size: 0.93em;
-  height: 100%;
 }
 
 #contact form {
