@@ -69,7 +69,7 @@ a {
 #contact form {
   display: flex;
   flex-direction: column;
-  padding: 16px;
+  padding: 16px 4px;
   margin: auto;
   font-family: 'Archivo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -84,7 +84,7 @@ a {
 
 #contact form textarea {
   resize: none;
-  height: 250px;
+  height: 175px;
   border: none;
   background-color: rgba(0,0,0,0.05);
   border-radius: 2px;
@@ -94,4 +94,20 @@ a {
 
 #contact form button {
   width: 50px;
+  border: none;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+  border-radius: 2px;
+  padding: 8px;
+}
+
+#contact form button:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+#contact form #emailstatus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
