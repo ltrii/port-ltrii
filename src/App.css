@@ -1,3 +1,7 @@
+a {
+  color: rgb(72, 103, 145);
+}
+
 .portfolio-main {
   max-width: 800px;
   height: 100%;
@@ -30,6 +34,7 @@
   font-weight: 500;
   font-family: 'Lato', 'Inter';
   text-decoration: none;
+  color: #80c;
 }
 
 #znav {
@@ -59,4 +64,34 @@
   width: 67%;
   font-size: 0.93em;
   height: 100%;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: auto;
+  font-family: 'Archivo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact form input {
+  border: none;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px 0px;
+}
+
+#contact form textarea {
+  resize: none;
+  height: 250px;
+  border: none;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 2px;
+  padding: 8px;
+  margin: 8px 0px;
+}
+
+#contact form button {
+  width: 50px;
 }

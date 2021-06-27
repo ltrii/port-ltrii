@@ -4,6 +4,7 @@ import Top from './components/Top';
 import TopContent from './components/TopContent';
 import Znav from './components/Znav';
 import Contact from './components/Contact';
+import Skills from './components/Skills'
 
 function App() {
   const [setter, setsetter] = useState("main");
@@ -15,6 +16,7 @@ function App() {
         <div id="switcher">
           {setter === "main" ? <TopContent /> : null}
           {setter === "contact" ? <Contact /> : null}
+          {setter === "skills" ? <Skills /> : null}
           <p id="red-notice">This site is undergoing work as I am currently updating it and improving it.</p>
         </div>
       </div>
