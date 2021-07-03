@@ -19,7 +19,7 @@ a {
 .portfolio-main {
   border-radius: 4px;
   width: 800px;
-  height: 800px;
+  min-height: 600px;
   margin: 20px;
   padding: 0px 32px;
   display: flex;
@@ -37,7 +37,7 @@ a {
 
 #top h1 {
   padding: 48px 0px 4px 0px;
-  font-size: 2.77em;
+  font-size: 2.5em;
 }
 
 #switcher {
