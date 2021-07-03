@@ -2,37 +2,57 @@ a {
   color: rgb(72, 103, 145);
 }
 
+.mainholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: -10;
+}
+
 .portfolio-main {
-  max-width: 800px;
-  max-height: 100vh;
-  margin: auto;
+  border-radius: 4px;
+  width: 800px;
+  height: 800px;
+  margin: 20px;
   padding: 0px 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position:absolute;
-  top:0px;
-  right:0px;
-  bottom:0px;
-  left:0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   color: #121216;
+  background-color: rgba(255, 255, 255, 0.925);
+  backdrop-filter: blur(4px);
   z-index: 1;
 }
 
 #top h1 {
   padding: 48px 0px 4px 0px;
-  font-size: 2.11em;
+  font-size: 2.77em;
 }
 
 #switcher {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: stretch;
+  align-items: stretch;
   width: 100%;
   height: 100%;
   font-size: 1.15em;
-  font-family: 'Archivo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Archivo", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
   line-height: 1.44;
-}
-
-.page {
+  z-index: 1;
   overflow-y: auto;
 }
 
@@ -41,27 +61,27 @@ a {
 }
 
 .page::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.3); ;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
 .page::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
-​
-
-#top-content {
+​ #top-content {
   height: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 #top-content #s2 {
   font-weight: 500;
-  font-family: 'Lato', 'Inter';
+  font-family: "Lato", "Inter";
   text-decoration: none;
   color: #80c;
 }
@@ -74,15 +94,18 @@ a {
   position: sticky;
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
-  padding: 22px 0px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.466);
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 #znav button {
   border: none;
   background-color: transparent;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
+  font-size: 0.95em;
+  padding: 22px 11px;
 }
 
 #znav button:hover {
@@ -90,16 +113,17 @@ a {
 }
 
 #contact form {
+  width: 92%;
   display: flex;
   flex-direction: column;
-  padding: 16px 4px;
-  margin: auto;
-  font-family: 'Archivo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 16px auto;
+  font-family: "Archivo", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #contact form input {
   border: none;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
   padding: 8px;
   margin: 8px 0px;
@@ -109,7 +133,7 @@ a {
   resize: none;
   height: 175px;
   border: none;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 2px;
   padding: 8px;
   margin: 8px 0px;
@@ -120,7 +144,7 @@ a {
   border: none;
   background-color: rgb(71, 71, 71);
   color: white;
-  font-family: 'Space Mono', 'Courier New', Courier, monospace;
+  font-family: "Space Mono", "Courier New", Courier, monospace;
   border-radius: 2px;
   padding: 8px;
 }
@@ -134,3 +158,19 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+#tooltip {
+  background-color: rgb(222, 222, 222, 0.5);
+  padding: 5px 22px;
+  font-size: 0.85em;
+  width: fit-content;
+  margin: auto;
+}
+
+#topandcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+

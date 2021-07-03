@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,700;1,400&family=Inter:wght@100;400;700&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,700;1,400&family=Inter:wght@100;400;700&family=Space+Mono&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,15 +8,167 @@
 }
 
 body {
-  border-top: 10px solid black;
   background-color: rgba(253, 253, 253, 0.966);
   margin: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
 code {
-  font-family: 'Space Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Space Mono", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+
+#pinkish {
+  background: #ac6a6f;
+  background: -webkit-linear-gradient(top left, #ac6a6f, #cb5756);
+  background: -moz-linear-gradient(top left, #ac6a6f, #cb5756);
+  background: linear-gradient(to bottom right, #ac6a6f, #cb5756);
+}
+
+#sealight {
+  background-image: linear-gradient(
+    to right top,
+    #aac4ff,
+    #a1cbf9,
+    #a0d1f1,
+    #a8d5e7,
+    #b4d7df,
+    #bedbdf,
+    #c9dfe0,
+    #d3e2e2,
+    #dce9e9,
+    #e6f0f0,
+    #eff8f8,
+    #f9ffff
+  );
+}
+
+#thelake {
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #237a57,
+    #093028
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #237a57,
+    #093028
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#moonlit {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#htmlorange {
+  background: #e44d26; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f16529,
+    #e44d26
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f16529,
+    #e44d26
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#lush {
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#midnight {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#minimalred {
+  background: #f00000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dc281e,
+    #f00000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dc281e,
+    #f00000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#nelson {
+  background: #f2709c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff9472,
+    #f2709c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff9472,
+    #f2709c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#kyoto {
+  background: #c21500; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc500,
+    #c21500
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc500,
+    #c21500
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#kashmir {
+  background: #614385; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #516395,
+    #614385
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #516395,
+    #614385
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
