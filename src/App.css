@@ -30,7 +30,7 @@ a {
   bottom: 0px;
   left: 0px;
   color: #121216;
-  background-color: rgba(255, 255, 255, 0.925);
+  background-color: rgba(255, 255, 255, 0.955);
   backdrop-filter: blur(4px);
   z-index: 1;
 }
@@ -94,7 +94,12 @@ a {
   position: sticky;
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.064);
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 5, 5, 0.05) 35%,
+    rgba(19, 19, 19, 0.05) 100%
+  );
   backdrop-filter: blur(4px);
   border-radius: 4px;
   overflow: hidden;
@@ -104,7 +109,7 @@ a {
   border: none;
   background-color: transparent;
   font-family: "Space Mono";
-  font-size: 0.925em;
+  font-size: 1em;
   padding: 22px 11px;
 }
 
@@ -190,6 +195,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: "Inter";
+  font-weight: 400;
 }
 
-
+@media (max-width: 650px) {
+  #skills {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}

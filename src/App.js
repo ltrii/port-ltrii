@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import Top from './components/Top';
-import TopContent from './components/TopContent';
-import Znav from './components/Znav';
-import Contact from './components/Contact';
-import Skills from './components/Skills'
+import { useEffect, useState } from "react";
+import "./App.css";
+import Top from "./components/Top";
+import TopContent from "./components/TopContent";
+import Znav from "./components/Znav";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 function App() {
   const [setter, setsetter] = useState("main");
@@ -22,17 +22,17 @@ function App() {
       "minimalred",
       "nelson",
       "kyoto",
-      "kashmir"
-    ]
+      "kashmir",
+    ];
     const themod = bgcolors.length;
-    const thechoice = (Math.floor(Math.random() * 1000)) % themod;
-    setbgval(bgcolors[thechoice])
-    console.log(themod, thechoice, bgval)
-  }
+    const thechoice = Math.floor(Math.random() * 1000) % themod;
+    setbgval(bgcolors[thechoice]);
+    console.log(themod, thechoice, bgval);
+  };
 
   useEffect(() => {
-    setbggradient()
-  }, [])
+    setbggradient();
+  }, []);
 
   return (
     <div className="mainholder" id={bgval}>
@@ -45,7 +45,7 @@ function App() {
             {setter === "skills" ? <Skills /> : null}
           </div>
         </div>
-          <Znav sfn={setsetter} />
+        <Znav sfn={setsetter} />
       </div>
     </div>
   );
