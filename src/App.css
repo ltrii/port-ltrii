@@ -94,12 +94,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: rgb(5, 5, 5);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 250, 250, 0.92) 35%,
-    rgba(233, 233, 233, 0.92) 100%
-  );
+  background: rgba(5, 5, 5, .02);
   backdrop-filter: blur(4px);
   border-radius: 4px;
   overflow: hidden;
@@ -117,7 +112,7 @@ a {
 }
 
 #znav button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 

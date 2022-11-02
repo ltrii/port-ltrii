@@ -27,7 +27,6 @@ function App() {
     const themod = bgcolors.length;
     const thechoice = Math.floor(Math.random() * 1000) % themod;
     setbgval(bgcolors[thechoice]);
-    console.log(themod, thechoice, bgval);
   };
 
   useEffect(() => {
