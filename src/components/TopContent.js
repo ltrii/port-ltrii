@@ -8,10 +8,10 @@ export default function TopContent() {
           <b>Hello!</b> My name is <i>Leland Rogers</i> and I work at{" "}
           <a href="https://www.singlestore.com" id="s2">
             SingleStore
-          </a>
-          Currently I'm working as a Technical Support Engineer at SingleStore.
-          It's been a fantastic place where I have learned many skills while
-          helping customers solve highly technical problems.{" "}
+          </a>{" "}
+          as a Technical Support Engineer. I
+          have learned many skills while helping customers solve highly
+          technical problems.{" "}
         </p>
         <p>
           Whether reading Go code to find why something is working the way it
