@@ -1,13 +1,57 @@
-import React from 'react'
+import React from "react";
 
 export default function TopContent() {
-    return (
-        <div id="topcontent">
-            <div>
-                <p><b>Hello!</b> My name is <i>Leland Rogers</i> and I work at <a href="https://www.singlestore.com" id="s2">SingleStore</a>. I'm currently a support engineer helping our customers troubleshoot highlevel problems within their clusters. I've also got skills in React, and attended Lambda School where I learned the full web stack. Alongside that I have skill with Python, C, and other widely used languages.</p>
-                <p>Most recently I've been utilizing Kubernetes to create and maintain orchestrated deployments of SingleStore and other applications within cloud environments.</p>
-            </div>
-            <p id="tooltip">Not your color? Refresh to get a new background.</p>
-        </div>
-    )
+  return (
+    <div id="topcontent">
+      <div>
+        <p>
+          <b>Hello!</b> My name is <i>Leland Rogers</i> and I work at{" "}
+          <a href="https://www.singlestore.com" id="s2">
+            SingleStore
+          </a>
+          Currently I'm working as a Technical Support Engineer at SingleStore.
+          It's been a fantastic place where I have learned many skills while
+          helping customers solve highly technical problems.{" "}
+        </p>
+        <p>
+          Whether reading Go code to find why something is working the way it
+          is, working with engineers to get to the root of a problem, or
+          researching technologies that interface with SingleStore (many
+          different disparate types: S3, Kerberos, GCP, AKS, EKS, Spark, and
+          many more) working there has been a constant growth opportunity.{" "}
+        </p>
+        <p>
+          I think it's best to say I am very adaptable and quick to learn
+          anything I develop a passion for.{" "}
+        </p>
+        <p>
+          Outside of the technical aspect I've also learned a lot about working
+          with customers directly and making sure expectations are set while
+          also providing guidance and thorough support.
+        </p>
+        <p>
+          Due to the variety of deployment methods for our software I have been
+          able to learn Kubernetes skills effectively and build out personal
+          projects utilizing Kubernetes as well. I've come to enjoy working with
+          Kubernetes, and I provide a significant portion of support for our
+          operator.
+        </p>
+        I'm also a Full Stack Web Developer with skills covering HTML, CSS,
+        LESS, React.js, Redux, SQL and more. On top of that I have experience
+        with Python, C, and other programming languages.
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>
+          You can email me at{" "}
+          <a href="mailto:leland@ltrii.com">leland@ltrii.com</a>
+        </p>
+        <p>
+          You can find me on{" "}
+          <a href="https://www.linkedin.com/in/leland-rogers/">LinkedIn</a>.
+        </p>
+      </div>
+      <p id="tooltip">Not your color? Refresh to get a new background.</p>
+    </div>
+  );
 }
