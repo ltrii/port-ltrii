@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Top from "./components/Top";
 import TopContent from "./components/TopContent";
@@ -6,7 +7,6 @@ import Znav from "./components/Znav";
 import Skills from "./components/Skills";
 
 function App() {
-  const [setter, setsetter] = useState("main");
   const [bgval, setbgval] = useState("pinkish");
 
   const setbggradient = () => {
@@ -33,17 +33,19 @@ function App() {
   }, []);
 
   return (
-    <div className="mainholder" id={bgval}>
-      <div className="portfolio-main">
-        <div id="topandcontent">
-          <Top />
-          <div id="switcher">
-            {setter === "main" ? <TopContent /> : null}
-            {setter === "skills" ? <Skills /> : null}
-          </div>
-        </div>
-        <Znav sfn={setsetter} />
-      </div>
+    <div className={`mainholder ${bgval}`}>
+    <div className="portfolio-main">
+    <div id="topandcontent">
+    <Top />
+    <div id="switcher">
+    <Routes>
+    <Route path="/" element={<TopContent />} />
+    <Route path="/skills" element={<Skills />} />
+    </Routes>
+    </div>
+    </div>
+    <Znav />
+    </div>
     </div>
   );
 }

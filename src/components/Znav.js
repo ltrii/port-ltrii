@@ -1,10 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Znav(props) {
+export default function Znav() {
     return (
         <div id="znav">
-            <button onClick={() => props.sfn("main")}>about</button>
-            <button onClick={() => props.sfn("skills")}>my skills</button>
+        <Link to="/" className="znav-link">
+        about
+        </Link>
+        <Link to="/skills" className="znav-link">
+        my skills
+        </Link>
         </div>
-    )
+    );
 }
