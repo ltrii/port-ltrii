@@ -1,0 +1,240 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+---
+
+<Layout title="Leland Rogers | Senior Technical Support Engineer">
+	
+	<div class="flex justify-end mb-8">
+		<ThemeToggle />
+	</div>
+
+	<header class="mb-16 reveal active">
+		<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand/10 text-brand dark:bg-brand/20 text-sm font-semibold mb-6">
+			<span class="relative flex h-2 w-2">
+				<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand opacity-75"></span>
+				<span class="relative inline-flex rounded-full h-2 w-2 bg-brand"></span>
+			</span>
+			<span id="status-text" class="transition-opacity duration-500 opacity-100">Resolving Complex Database Issues</span>
+		</div>
+		
+		<h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-4 tracking-tight">Leland Rogers</h1>
+		<h2 class="text-xl text-brand font-semibold mb-6">Senior Technical Support Engineer @ SingleStore</h2>
+		<p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed mb-4">
+			I specialize in helping customers solve highly technical problems across the entire stack. I am highly adaptable—whether I'm reading Go code to uncover a root cause, researching complex enterprise integrations, or working directly with customers to provide thorough support and guidance.
+		</p>
+		<p class="text-lg text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
+			My engineering approach is holistic: I'm just as comfortable tuning bare-metal Linux hardware and debugging intricate pipeline logs as I am architecting cloud-native Kubernetes deployments and building modern web interfaces.
+		</p>
+		
+		<div class="mt-8 flex gap-6">
+			<a href="https://github.com/ltrii" target="_blank" rel="noopener noreferrer" class="text-slate-900 dark:text-white hover:text-brand transition-colors font-medium">GitHub ↗</a>
+			<a href="https://www.linkedin.com/in/leland-rogers" target="_blank" rel="noopener noreferrer" class="text-slate-900 dark:text-white hover:text-brand transition-colors font-medium">LinkedIn ↗</a>
+			<a href="mailto:leland@ltrii.com" class="text-slate-900 dark:text-white hover:text-brand transition-colors font-medium">Email ↗</a>
+		</div>
+	</header>
+
+	<main class="space-y-20">
+		
+		<section class="reveal">
+			<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+				Core Engineering & Support
+			</h3>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				
+				<div class="bg-white dark:bg-slate-800/40 p-6 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm hover:shadow-md hover:border-brand/30 dark:hover:border-brand/50 transition-all duration-300">
+					<h4 class="text-xl font-semibold text-slate-900 dark:text-white mb-3">Distributed Databases</h4>
+					<p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">
+						Expertise in SingleStore (MySQL-compliant) alongside deep relational database knowledge (MySQL, PostgreSQL). I drive resolution for mission-critical database issues by analyzing query execution plans, profiling SQL performance, and troubleshooting data skew and memory bottlenecks.
+					</p>
+					<div class="flex flex-wrap gap-2 text-xs font-semibold text-brand dark:text-brand/80 bg-brand/5 dark:bg-transparent rounded-lg p-2 dark:p-0">
+						<span>SingleStore</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>MySQL / Postgres</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>Query Profiling</span>
+					</div>
+				</div>
+
+				<div class="bg-white dark:bg-slate-800/40 p-6 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm hover:shadow-md hover:border-brand/30 dark:hover:border-brand/50 transition-all duration-300">
+					<h4 class="text-xl font-semibold text-slate-900 dark:text-white mb-3">Kubernetes & Cloud Infra</h4>
+					<p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">
+						Deep experience managing stateful workloads using various Kubernetes Operators. I troubleshoot complex deployments across managed cloud environments (AKS, EKS, GCP) and configure external data pipelines and ETL integrations utilizing AWS S3 and Apache Spark.
+					</p>
+					<div class="flex flex-wrap gap-2 text-xs font-semibold text-brand dark:text-brand/80 bg-brand/5 dark:bg-transparent rounded-lg p-2 dark:p-0">
+						<span>K8s Operators</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>AKS / EKS / GCP</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>S3 & Spark</span>
+					</div>
+				</div>
+
+				<div class="bg-white dark:bg-slate-800/40 p-6 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm hover:shadow-md hover:border-brand/30 dark:hover:border-brand/50 transition-all duration-300">
+					<h4 class="text-xl font-semibold text-slate-900 dark:text-white mb-3">Enterprise Security & Auth</h4>
+					<p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">
+						Architecting and troubleshooting secure access protocols within enterprise infrastructure. Deep knowledge of directory services, isolating complex LDAP filter synchronization issues, managing strict RBAC policies, and resolving Kerberos auth failures.
+					</p>
+					<div class="flex flex-wrap gap-2 text-xs font-semibold text-brand dark:text-brand/80 bg-brand/5 dark:bg-transparent rounded-lg p-2 dark:p-0">
+						<span>LDAP / AD</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>RBAC</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>Kerberos</span>
+					</div>
+				</div>
+
+				<div class="bg-white dark:bg-slate-800/40 p-6 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm hover:shadow-md hover:border-brand/30 dark:hover:border-brand/50 transition-all duration-300">
+					<h4 class="text-xl font-semibold text-slate-900 dark:text-white mb-3">Linux Systems & Performance</h4>
+					<p class="text-slate-600 dark:text-slate-400 text-sm mb-5 leading-relaxed">
+						Deep expertise across various Linux distributions and bare-metal environments. Comfortable diving into source code to uncover root causes, analyzing logs for OoM and connection errors, and tuning advanced CPU schedulers for performance optimization.
+					</p>
+					<div class="flex flex-wrap gap-2 text-xs font-semibold text-brand dark:text-brand/80 bg-brand/5 dark:bg-transparent rounded-lg p-2 dark:p-0">
+						<span>Cross-Distro Linux</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>Log Analysis</span>
+						<span class="text-slate-300 hidden dark:inline">•</span>
+						<span>Hardware Tuning</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="reveal">
+			<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+				Full Stack Web Development
+			</h3>
+			<div class="bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm transition-all duration-300 hover:shadow-md">
+				<div class="max-w-3xl">
+					<h4 class="text-xl font-semibold text-slate-900 dark:text-white mb-3">Modern Frontend & Tooling</h4>
+					<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 leading-relaxed">
+						Outside of my backend systems work, I have a passion for frontend development. I learned React and Redux to build out personal web applications, which is supported by a strong foundation in core web technologies and scripting languages.
+					</p>
+					
+					<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+						<div class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-lg border border-slate-100 dark:border-slate-800 text-center hover:border-brand/30 transition-colors">
+							<span class="block text-slate-800 dark:text-slate-300 font-medium text-sm">React.js & Redux</span>
+						</div>
+						<div class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-lg border border-slate-100 dark:border-slate-800 text-center hover:border-brand/30 transition-colors">
+							<span class="block text-slate-800 dark:text-slate-300 font-medium text-sm">HTML, CSS & LESS</span>
+						</div>
+						<div class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-lg border border-slate-100 dark:border-slate-800 text-center hover:border-brand/30 transition-colors">
+							<span class="block text-slate-800 dark:text-slate-300 font-medium text-sm">JavaScript (ES6+)</span>
+						</div>
+						<div class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-lg border border-slate-100 dark:border-slate-800 text-center hover:border-brand/30 transition-colors">
+							<span class="block text-slate-800 dark:text-slate-300 font-medium text-sm">Responsive UI</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="reveal">
+			<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">Technologies & Toolkit</h3>
+			
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white dark:bg-slate-800/40 p-6 md:p-8 rounded-xl border border-slate-200 dark:border-slate-700/50 shadow-sm">
+				
+				<div>
+					<h4 class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">Linux & Systems Architecture</h4>
+					<div class="flex flex-wrap gap-2">
+						{["Linux (Cross-Distro)", "Bash Scripting", "Kernel Scheduling", "Docker", "Hardware Tuning", "Pipeline Analysis"].map((tech) => (
+							<span class="px-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 rounded-md border border-slate-200 dark:border-slate-700">
+								{tech}
+							</span>
+						))}
+					</div>
+				</div>
+
+				<div>
+					<h4 class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">Languages & Frontend</h4>
+					<div class="flex flex-wrap gap-2">
+						{["Go", "Python", "C", "JavaScript (ES6+)", "React.js & Redux", "HTML/CSS"].map((tech) => (
+							<span class="px-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 rounded-md border border-slate-200 dark:border-slate-700">
+								{tech}
+							</span>
+						))}
+					</div>
+				</div>
+
+				<div>
+					<h4 class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">Databases & Data</h4>
+					<div class="flex flex-wrap gap-2">
+						{["SingleStore", "MySQL", "PostgreSQL", "Apache Spark", "Query Optimization", "SQL Profiling"].map((tech) => (
+							<span class="px-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 rounded-md border border-slate-200 dark:border-slate-700">
+								{tech}
+							</span>
+						))}
+					</div>
+				</div>
+
+				<div>
+					<h4 class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">Cloud, Security & DevOps</h4>
+					<div class="flex flex-wrap gap-2">
+						{["Kubernetes", "K8s Operators", "AWS / Azure / GCP", "LDAP & Active Directory", "Kerberos / RBAC", "CI/CD Pipelines"].map((tech) => (
+							<span class="px-3 py-1.5 text-xs font-medium bg-slate-100 dark:bg-slate-800/80 text-slate-700 dark:text-slate-300 rounded-md border border-slate-200 dark:border-slate-700">
+								{tech}
+							</span>
+						))}
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="mt-24 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-slate-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4 reveal">
+		<p>&copy; {new Date().getFullYear()} Leland Rogers. All rights reserved.</p>
+		<p>Built with Astro & Tailwind.</p>
+	</footer>
+
+	<script is:inline>
+		// --- Text Cycler Logic ---
+		const phrases = [
+			"Resolving Complex Database Issues",
+			"Orchestrating with Kubernetes",
+			"Diving Deep into Go & Python",
+			"Troubleshooting Cloud Infrastructure",
+			"Building Modern Web Applications",
+			"Exploring New Technologies"
+		];
+		
+		let currentPhrase = 0;
+		const textElement = document.getElementById('status-text');
+
+		setInterval(() => {
+			// Fade out
+			textElement.classList.remove('opacity-100');
+			textElement.classList.add('opacity-0');
+			
+			// Wait for fade transition, then change text and fade back in
+			setTimeout(() => {
+				currentPhrase = (currentPhrase + 1) % phrases.length;
+				textElement.innerText = phrases[currentPhrase];
+				textElement.classList.remove('opacity-0');
+				textElement.classList.add('opacity-100');
+			}, 500); 
+		}, 3500); // Change phrase every 3.5 seconds
+
+		// --- Scroll Reveal Logic ---
+		const observerOptions = {
+			root: null,
+			rootMargin: '0px',
+			threshold: 0.1
+		};
+
+		const observer = new IntersectionObserver((entries, observer) => {
+			entries.forEach(entry => {
+				if (entry.isIntersecting) {
+					entry.target.classList.add('active');
+					observer.unobserve(entry.target); // Stop observing once revealed
+				}
+			});
+		}, observerOptions);
+
+		document.querySelectorAll('.reveal').forEach((element) => {
+			observer.observe(element);
+		});
+	</script>
+</Layout>

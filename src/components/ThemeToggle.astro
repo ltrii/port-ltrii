@@ -1,0 +1,26 @@
+---
+---
+<button id="theme-toggle" class="relative inline-flex h-6 w-12 items-center rounded-full bg-slate-300 dark:bg-slate-700 transition-colors focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 dark:focus:ring-offset-slate-900" aria-label="Toggle Dark Mode">
+  <span class="sr-only">Toggle dark mode</span>
+  <span id="theme-toggle-slider" class="inline-block h-4 w-4 transform rounded-full bg-white transition-transform translate-x-1 dark:translate-x-7 shadow-sm"></span>
+</button>
+
+<script is:inline>
+  const handleToggleClick = () => {
+    const element = document.documentElement;
+    element.classList.toggle("dark");
+    
+    const isDark = element.classList.contains("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    
+    // Update slider position visually
+    const slider = document.getElementById("theme-toggle-slider");
+    if (isDark) {
+      slider.classList.replace("translate-x-1", "translate-x-7");
+    } else {
+      slider.classList.replace("translate-x-7", "translate-x-1");
+    }
+  }
+
+  document.getElementById("theme-toggle").addEventListener("click", handleToggleClick);
+</script>
